@@ -7588,7 +7588,7 @@ var Ere = nL((Tre, Sw) => {
             return this.htmlEscape(n).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u00A1\йцукенгшщзхфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮ\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
             return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -24346,28 +24346,28 @@ ${t}`
             FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         fee = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME: "ИМЯ",
+            NAME_PLACEHOLDER: "ВВЕДИ СВОЁ ИМЯ",
+            PASSWORD_PLACEHOLDER: "ПЯТИ ЗНАЧНЫЙ ПАРОЛЬ",
+            PASSWORD_REQUIRED_TITLE: "Нужен пароль",
+            PASSWORD_REQUIRED_BODY: "Пожалуйста, введите пароль, или зайдите за зрителя",
+            PASSWORD_JOIN_AS_PLAYER: "Зайти за игрока",
+            PASSWORD_JOIN_AS_AUDIENCE: "Зайти за зрителя",
+            ROOM_CODE: "КОД КОМНАТЫ",
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИ ЧЕТЫРЁХ ЗНАЧНЫЙ КОД КОМНАТЫ"
         },
         dee = "Link to Jackbox Games Homepage",
         hee = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "ТЕМА",
+            DARK: "тёмная",
+            HELP: "ПОМОЩЬ",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
+            LIGHT: "светлая",
+            LOGOUT: "ВЫЙТИ",
             MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
+            PAST_GAMES: "ПРОШЛЫЕ ИГРЫ",
             MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            MODERATOR: "МОДЕРАТОР"
         },
         pee = {
             CALL_TO_ACTION: {
