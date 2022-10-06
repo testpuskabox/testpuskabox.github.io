@@ -13087,24 +13087,24 @@ ${n.message}`,
         }
     }
     const X3 = {
-            BACK: "Назад",
-            CANCEL: "Адмяніць",
-            CLOSE: "Закрыць",
-            CONFIRM: "Гатова",
-            CREATE: "Стварыць",
-            DELETE: "Выдаліць",
-            DONE: "Гатова",
-            EDIT: "Рэдагаваць",
-            OK: "Так",
-            NO: "Не",
-            PLAY: "Гуляць",
-            PUBLISH: "Апублікаваць",
-            REMOVE: "Выдаліць",
-            RESET: "Сбросіць",
-            SUBMIT: "Адправіць",
-            TRY_AGAIN: "Яшчэ раз",
-            UNDO: "Адмяніць",
-            YES: "Так"
+            BACK: "Back",
+            CANCEL: "Cancel",
+            CLOSE: "Close",
+            CONFIRM: "Confirm",
+            CREATE: "Create",
+            DELETE: "Delete",
+            DONE: "Done",
+            EDIT: "Edit",
+            OK: "OK",
+            NO: "No",
+            PLAY: "Play",
+            PUBLISH: "Publish",
+            REMOVE: "Remove",
+            RESET: "Reset",
+            SUBMIT: "Submit",
+            TRY_AGAIN: "Try Again",
+            UNDO: "Undo",
+            YES: "Yes"
         },
         J3 = {
             UGC: {
@@ -13126,31 +13126,31 @@ ${n.message}`,
         },
         Z3 = "LOADING",
         eH = {
-            JOINED_COUNT: "x | {count} з {maxPlayers} гульцоў падключана | {count} з {maxPlayers} гульцоў падключана",
-            PLAYERS_NEEDED: "x | {count} гульцоў трэба для старта | {count} гульцоў трэба для старта",
-            WAITING_FOR_VIP: "Чакаем, пакуль {name} пачне гульню",
-            WAITING_FOR_GAMEPAD: "Чакаем пачатка гульні",
-            GAME_STARTING: "Гульня пачынаецца",
-            BUTTON_START: "Націсніце каб Пачаць",
-            BUTTON_CANCEL: "Націсніце каб Адмяніць"
+            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
+            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
+            WAITING_FOR_VIP: "Waiting for {name} to start the game",
+            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
+            GAME_STARTING: "Game is starting",
+            BUTTON_START: "Press to Start",
+            BUTTON_CANCEL: "Press to Cancel"
         },
         tH = {
-            GALLERY_LINK: "Паглядзець галерэю",
-            PLAY_AGAIN: "Яшчэ раз?",
-            BUTTON_SAME_PLAYERS: "Гэтыя гульцы",
-            BUTTON_NEW_PLAYERS: "Новыя гульцы"
+            GALLERY_LINK: "Visit the Gallery",
+            PLAY_AGAIN: "Play again?",
+            BUTTON_SAME_PLAYERS: "Same Players",
+            BUTTON_NEW_PLAYERS: "New Players"
         },
         nH = {
-            AND: "І",
-            OR: "ЦІ"
+            AND: "AND",
+            OR: "OR"
         },
         rH = {
-            BUTTON_SKIP: "Прапусціць",
-            BUTTON_NEXT: "Наступны",
-            BUTTON_DONE: "Паехалі!"
+            BUTTON_SKIP: "Skip",
+            BUTTON_NEXT: "Next",
+            BUTTON_DONE: "Let\u2019s Go!"
         },
         iH = {
-            NAME: "ГЛЕДАЧЫ"
+            NAME: "AUDIENCE"
         },
         sH = {
             EPISODE_REPORT: "Report Episode",
@@ -24325,93 +24325,93 @@ ${t}`
         }
     });
     const lee = {
-            LABEL: "ВЕТКА",
-            REFRESH_REQUIRED: "Патрэбна перагрузка",
+            LABEL: "BRANCH",
+            REFRESH_REQUIRED: "Refresh Required",
             PREFERRED: "PREFERRED BRANCH",
             SELECT: "Select a Branch",
-            WAITING: "Чакаем пакой"
+            WAITING: "Waiting for Room"
         },
         uee = {
-            UNSUPPORTED_BROWSER: "Гэтая гульня не падтрымліваецца ў гэтым браўзэры. Праглядзіце ? або Даведка, каб праглядзець спіс сумяшчальных браўзэраў.",
-            ROOM_IS_FULL: "Гульня запоўнена",
-            ROOM_NOT_FOUND: "Пакой не знойдзен",
-            AUDIENCE_IS_FULL: "Гледачы запоўнены",
-            UNABLE_TO_CONNECT: "Не ўдаецца падключыцца да сервера Jackbox Games. Звычайна гэта выклікана рэкламнымі блокаторамі або пашырэннямі прыватнасці.",
-            UNABLE_TO_PRELOAD: "Ой, эй. Нешта зламалась. Калі вы гэта бачыце, напышыце bur.and.by@gmail.com, з скрыном Console ў Ctrl+Shift+I",
-            KICKED: "Вы былі кікнуты модэратарам",
-            REQUIRES_TWITCH_LOGIN: "Для гэтай гульні патрэбен уваход ў Twitch",
-            ROOM_IS_LOCKED: "Гульня заблакірована",
-            INCORRECT_PASSWORD: "Неверны пароль",
-            GENERIC: "Ой, эй. Нешта зламалась. Калі вы гэта бачыце, напышыце bur.and.by@gmail.com, з скрыном Console ў Ctrl+Shift+I",
-            FILTER_NAME: "У гэтай гульні ўключаны фільтры ненарматыўнай лексікі. Калі ласка, выберыце іншае імя."
+            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
+            ROOM_IS_FULL: "The game is full",
+            ROOM_NOT_FOUND: "Room not found",
+            AUDIENCE_IS_FULL: "The audience is full",
+            UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
+            UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
+            KICKED: "You cannot join because you have been kicked by a moderator",
+            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
+            ROOM_IS_LOCKED: "Game is locked",
+            INCORRECT_PASSWORD: "Incorrect password",
+            GENERIC: "Error joining this game",
+            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         fee = {
-            NAME: "ІМЯ",
-            NAME_PLACEHOLDER: "УВЯДЗІЦЕ СВАЁ ІМЯ",
-            PASSWORD_PLACEHOLDER: "УВЯДЗІЦЕ 5-ЛІЧБАВЫ ПАРОЛЬ",
-            PASSWORD_REQUIRED_TITLE: "Патрэбен пароль",
-            PASSWORD_REQUIRED_BODY: "Калі ласка, увядзіце пароль або далучыцца як гледач",
-            PASSWORD_JOIN_AS_PLAYER: "Увайсці як гулец",
-            PASSWORD_JOIN_AS_AUDIENCE: "Увайсці як гледач",
-            ROOM_CODE: "КОД ПАКОЮ",
-            ROOM_CODE_PLACEHOLDER: "УВЯДЗІЦЕ 4-ЛІТАРНЫ КОД"
+            NAME: "NAME",
+            NAME_PLACEHOLDER: "ENTER YOUR NAME",
+            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
+            PASSWORD_REQUIRED_TITLE: "Password required",
+            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
+            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
+            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
+            ROOM_CODE: "ROOM CODE",
+            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
         },
         dee = "Link to Jackbox Games Homepage",
         hee = {
-            APPEARANCE: "ЗНЕШНАСЦЬ",
+            APPEARANCE: "APPEARANCE",
             DARK: "dark",
-            HELP: "ДАПАМОГА",
+            HELP: "HELP",
             TWITCH: "TWITCH",
             LIGHT: "light",
-            LOGOUT: "ВЫЙСЦІ",
-            MERCH: "САЙТ",
-            PAST_GAMES: "МІНУЛЫЯ ГУЛЬНІ",
-            MAILING_LIST: "РАССЫЛКА",
-            MODERATOR: "МАДЭРАТАР"
+            LOGOUT: "LOGOUT",
+            MERCH: "MERCH",
+            PAST_GAMES: "PAST GAMES",
+            MAILING_LIST: "MAILING LIST",
+            MODERATOR: "MODERATOR"
         },
         pee = {
             CALL_TO_ACTION: {
-                SHOP: "ПАГЛЯДЗЕЦЬ ГУЛЬНЮ І КРАМУ",
-                VIEW: "ПАГЛЯДЗЕЦЬ ГУЛЬНЮ"
+                SHOP: "VIEW GAME & SHOP",
+                VIEW: "VIEW THIS GAME"
             },
-            NEW: "НОВАЕ",
-            PLAYED_ON: "ЧАС ГУЛЬНІ",
+            NEW: "NEW",
+            PLAYED_ON: "PLAYED ON",
             REMOVE: {
-                CONFIRM: "Вы ўпэўнены?",
-                DESCRIPTION: `Гэта назаўжды выдаліць гэтую гульню
-з вашага спісу мінулых гульняў.`,
-                MANAGE: "Выдаліць Гульню?",
-                TITLE: "Вы ўпэўнены?"
+                CONFIRM: "Are you sure?",
+                DESCRIPTION: `This will permanently remove this game
+from your past games list.`,
+                MANAGE: "Remove Game?",
+                TITLE: "Are You Sure?"
             }
         },
         gee = {
-            EMPTY: "Яшчэ Няма Мінулых Гульняў",
-            MANAGE: "КІРАВАЦЬ",
-            TITLE: "ВАШЫ МІНУЛЫЯ ГУЛЬНІ"
+            EMPTY: "No Past Games Yet",
+            MANAGE: "MANAGE",
+            TITLE: "YOUR PAST GAMES"
         },
         mee = {
-            TITLE: "МІНУЛЫЯ ГУЛЬНІ",
+            TITLE: "RECENT GAMES",
             VIEW_ALL: {
-                BUTTON: "ПАГЛЯДЗЕЦЬ УСЕ",
-                LINK: "ПАГЛЯДЗЕЦЬ УСЕ МІНУЛЫЯ ГУЛЬНІ"
+                BUTTON: "VIEW ALL",
+                LINK: "VIEW ALL PAST GAMES"
             }
         },
         vee = {
-            GAME_FULL: "Гульня запоўнена",
-            GAME_STARTED: "Гульня пачалась",
-            ROOM_NOT_FOUND: "Пакой не знойдзен"
+            GAME_FULL: "Game is full",
+            GAME_STARTED: "Game has started",
+            ROOM_NOT_FOUND: "Room not found"
         },
         _ee = {
-            GAME_FULL: "ГУЛЬНЯ ЗАПОЎНЕНА",
-            GAME_STARTED: "ГУЛЬНЯ ПАЧАЛАСЬ",
-            JOIN_AUDIENCE: "ЗАЙСЦІ Ў ГЛЕДАЧОЎ",
-            RECONNECT: "ПЕРАЗАЙСЦІ",
-            TWITCH_LOGIN: "ЗАЙСЦІ ПРАЗ TWITCH"
+            GAME_FULL: "GAME IS FULL",
+            GAME_STARTED: "GAME HAS STARTED",
+            JOIN_AUDIENCE: "JOIN AUDIENCE",
+            RECONNECT: "RECONNECT",
+            TWITCH_LOGIN: "LOGIN WITH TWITCH"
         },
         yee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Націснуўшы {submit}, вы згаджаецеся з нашымі [tos]ўмовамі абслугоўвання[/tos]"
+            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
         },
         Eee = {
             BRANCH: lee,
@@ -26317,7 +26317,7 @@ ${t}`
             target: "_blank",
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
         }, Ce(e.$t("MENU.HELP")), 1)]), Y("li", null, [Y("a", {
-            href: "https://perakladalna.ml",
+            href: "https://shop.jackboxgames.com",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, Ce(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
