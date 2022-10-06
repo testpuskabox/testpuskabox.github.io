@@ -25301,28 +25301,28 @@ ${t}`
             })
         },
         Dte = {
-            LEFT: "left",
+            LEFT: "лево",
             RIGHT: "right",
-            SLAM: "slam",
-            YOU_UP_NEXT: "you are[line]up next[/line]",
-            IS_UP_NEXT: "up next[line]{name}[/line]",
-            OTHER_TEAM: "up now[line]{team}[/line]",
-            WAIT: "wait",
-            UP_NEXT: "up next",
-            QUIXORTING: "quixorting",
+            SLAM: "бросить",
+            YOU_UP_NEXT: "ты[line]следующий[/line]",
+            IS_UP_NEXT: "следующее[line]{name}[/line]",
+            OTHER_TEAM: "сейчас[line]{team}[/line]",
+            WAIT: "ожидай",
+            UP_NEXT: "следующий",
+            QUIXORTING: "скоросортируем",
             FINAL: "final",
             ATTENTION: "! whoa there !",
             ATTENTION_MESSAGE: "you are at capacity and must trash a block before placing another one"
         },
         Mte = {
-            GET_READY: "GET READY",
+            GET_READY: "ПРИГОТОВЬСЯ",
             TAP_TO_TRASH: "TAP TO TRASH",
-            WAIT: "WAIT"
+            WAIT: "ОЖИДАЙ"
         },
         Fte = {
-            CHOOSE_AVATAR: "Choose your avatar",
-            CHOOSE_TEAM: "Choose your team",
-            CHOOSE_TEAM_AUDIENCE: "Choose the team you would like to join"
+            CHOOSE_AVATAR: "Выбери свой аватар",
+            CHOOSE_TEAM: "Выбери свою команду",
+            CHOOSE_TEAM_AUDIENCE: "Выбери команду к которой хотел бы присоедениться"
         },
         Bte = {
             FALLING: Dte,

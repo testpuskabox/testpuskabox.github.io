@@ -13097,7 +13097,7 @@ ${n.message}`,
             EDIT: "Edit",
             OK: "OK",
             NO: "No",
-            PLAY: "Play",
+            PLAY: "Играть",
             PUBLISH: "Publish",
             REMOVE: "Remove",
             RESET: "Reset",
@@ -24334,7 +24334,7 @@ ${t}`
         uee = {
             UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
             ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
+            ROOM_NOT_FOUND: "Такой комнаты нет",
             AUDIENCE_IS_FULL: "The audience is full",
             UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
             UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
@@ -24354,7 +24354,7 @@ ${t}`
             PASSWORD_JOIN_AS_PLAYER: "Зайти за игрока",
             PASSWORD_JOIN_AS_AUDIENCE: "Зайти за зрителя",
             ROOM_CODE: "КОД КОМНАТЫ",
-            ROOM_CODE_PLACEHOLDER: "ВВЕДИ ЧЕТЫРЁХ ЗНАЧНЫЙ КОД КОМНАТЫ"
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИ 4-ЁХ ЗНАЧНЫЙ КОД"
         },
         dee = "Link to Jackbox Games Homepage",
         hee = {
@@ -24402,11 +24402,11 @@ from your past games list.`,
             ROOM_NOT_FOUND: "Room not found"
         },
         _ee = {
-            GAME_FULL: "GAME IS FULL",
+            GAME_FULL: "ИГРА ЗАПОЛНЕНА",
             GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            JOIN_AUDIENCE: "ЗАЙТИ К ЗРИТЕЛЯМ",
+            RECONNECT: "ПЕРЕЗАЙТИ",
+            TWITCH_LOGIN: "ЗАЙТИ ИСПОЛЬЗУЯ ТВИЧ"
         },
         yee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
