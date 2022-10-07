@@ -8646,7 +8646,7 @@ var _re = hL((bre, kS) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Quixort",
+            name: "Скоросорт",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
@@ -10686,11 +10686,11 @@ ${n.message}`,
         F5 = {
             JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
             PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            WAITING_FOR_VIP: "Ждём пока {name} начнёт игру",
+            WAITING_FOR_GAMEPAD: "Ждём пока игры начнётся",
+            GAME_STARTING: "Игра начинается",
+            BUTTON_START: "Нажми чтобы начать",
+            BUTTON_CANCEL: "Нажми чтобы отменить запуск"
         },
         B5 = {
             GALLERY_LINK: "Visit the Gallery",
