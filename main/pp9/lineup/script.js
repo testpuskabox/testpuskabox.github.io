@@ -10685,9 +10685,9 @@ ${n.message}`,
         M5 = "LOADING",
         F5 = {
             JOINED_COUNT: "x | {count} из {maxPlayers} игроков зашло | {count} из {maxPlayers} игроков зашло",
-            PLAYERS_NEEDED: "x | {count} нужно чтобы начать | {count} нужно чтобы начать",
-            WAITING_FOR_VIP: "Ждём пока {name} начнёт игру",
-            WAITING_FOR_GAMEPAD: "Ждём пока игры начнётся",
+            PLAYERS_NEEDED: "x | нужен ещё {count} игрок чтобы начать |нужен ещё {count} чтобы начать",
+            WAITING_FOR_VIP: "Ждём, пока {name} начнёт игру",
+            WAITING_FOR_GAMEPAD: "Ждём, пока игрa начнётся",
             GAME_STARTING: "Игра начинается",
             BUTTON_START: "Нажми чтобы начать",
             BUTTON_CANCEL: "Нажми чтобы отменить запуск"
