@@ -10540,16 +10540,16 @@ Url: ${nr(t)}`), !0)
         nw = 1,
         iw = {
             branch: "main",
-            sha: "8ceeb5fd0c8c042ef5e126c03e46246f3749661c",
-            lastUpdated: 1664317106953,
-            version: "5.32.0",
+            sha: "8ee62445bb9e7d61167c20db61a117ffd6a43fd6",
+            lastUpdated: 1665095156850,
+            version: "5.38.0",
             type: "production"
         },
         aw = {
             main: {
-                sha: "8ceeb5fd0c8c042ef5e126c03e46246f3749661c",
-                lastUpdated: 1664317106953,
-                version: "5.32.0",
+                sha: "8ee62445bb9e7d61167c20db61a117ffd6a43fd6",
+                lastUpdated: 1665095156850,
+                version: "5.38.0",
                 type: "production",
                 bundles: {
                     "@connect": {
@@ -10862,25 +10862,25 @@ Url: ${nr(t)}`), !0)
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/antique-freak",
-                        version: "5.14.0"
+                        version: "5.35.0"
                     },
                     fourbage: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/fourbage",
-                        version: "5.0.0"
+                        version: "5.37.0"
                     },
                     htmf: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/htmf",
-                        version: "5.7.0"
+                        version: "5.33.0"
                     },
                     lineup: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/lineup",
-                        version: "5.17.0"
+                        version: "5.38.0"
                     },
                     "range-game": {
                         file: "script.js",
@@ -10913,4 +10913,4 @@ Url: ${nr(t)}`), !0)
     tw()
 });
 export default ow();
-//# sourceMappingURL=569a3ae0.js.map
+//# sourceMappingURL=f020853e.js.map
