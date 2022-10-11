@@ -95,7 +95,7 @@
 }
 
 .jbg.schemable.theme-dark[data-v-2032aa39] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -110,7 +110,7 @@
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-2032aa39] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -125,7 +125,7 @@
 }
 
 .jbg[data-v-2032aa39] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -271,7 +271,7 @@
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-2032aa39 1.5s infinite ease-in-out
 }
@@ -316,7 +316,7 @@
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -458,7 +458,7 @@
 
 .arrow svg[data-v-2032aa39] {
     width: 100%;
-    stroke: #4254f4;
+    stroke: #000000;
     stroke-width: 6px;
     fill: transparent;
     stroke-linecap: round;
@@ -486,7 +486,7 @@
 }
 
 .dots .dot.current[data-v-2032aa39] {
-    background: #4254F4;
+    background: #000000;
     transform: scale(1.5)
 }
 
@@ -513,7 +513,7 @@
     float: right;
     padding: 0 20px;
     border-radius: 20px;
-    background: #4254F4;
+    background: #000000;
     font-size: 17px;
     box-shadow: 0 4px #0e167d;
     transition: box-shadow .2s
@@ -526,7 +526,7 @@
 
 .buttons .done[data-v-2032aa39] {
     background: #FFF;
-    color: #4254f4;
+    color: #000000;
     animation: done-pulse-2032aa39 .5s alternate infinite
 }
 
@@ -725,7 +725,7 @@
 }
 
 .power-nav li.active[data-v-3606a1e1] {
-    color: #4254f4
+    color: #000000
 }
 
 .power-nav .option[data-v-3606a1e1] {
@@ -750,7 +750,7 @@
 }
 
 .jbg.schemable.theme-dark[data-v-c4b66a33] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -765,7 +765,7 @@
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-c4b66a33] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -780,7 +780,7 @@
 }
 
 .jbg[data-v-c4b66a33] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -926,7 +926,7 @@
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-c4b66a33 1.5s infinite ease-in-out
 }
@@ -971,7 +971,7 @@
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -1089,7 +1089,7 @@
 }
 
 .jbg.schemable.theme-dark[data-v-d0abff79] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -1104,7 +1104,7 @@
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-d0abff79] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -1119,7 +1119,7 @@
 }
 
 .jbg[data-v-d0abff79] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -1265,7 +1265,7 @@
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-d0abff79 1.5s infinite ease-in-out
 }
@@ -1310,7 +1310,7 @@
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -1387,7 +1387,7 @@ hr[data-v-d0abff79] {
 }
 
 .jbg.schemable.theme-dark[data-v-420dd700] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -1402,7 +1402,7 @@ hr[data-v-d0abff79] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-420dd700] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -1417,7 +1417,7 @@ hr[data-v-d0abff79] {
 }
 
 .jbg[data-v-420dd700] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -1563,7 +1563,7 @@ hr[data-v-d0abff79] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-420dd700 1.5s infinite ease-in-out
 }
@@ -1608,7 +1608,7 @@ hr[data-v-d0abff79] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -1627,7 +1627,7 @@ hr[data-v-d0abff79] {
 }
 
 .jbg.schemable.theme-dark[data-v-f5303469] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -1642,7 +1642,7 @@ hr[data-v-d0abff79] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-f5303469] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -1657,7 +1657,7 @@ hr[data-v-d0abff79] {
 }
 
 .jbg[data-v-f5303469] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -1803,7 +1803,7 @@ hr[data-v-d0abff79] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-f5303469 1.5s infinite ease-in-out
 }
@@ -1848,7 +1848,7 @@ hr[data-v-d0abff79] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -1871,7 +1871,7 @@ button.twitch[data-v-f5303469] {
 }
 
 .jbg.schemable.theme-dark[data-v-e6feb9c0] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -1886,7 +1886,7 @@ button.twitch[data-v-f5303469] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-e6feb9c0] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -1901,7 +1901,7 @@ button.twitch[data-v-f5303469] {
 }
 
 .jbg[data-v-e6feb9c0] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -2047,7 +2047,7 @@ button.twitch[data-v-f5303469] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-e6feb9c0 1.5s infinite ease-in-out
 }
@@ -2092,7 +2092,7 @@ button.twitch[data-v-f5303469] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -2239,7 +2239,7 @@ button.twitch[data-v-f5303469] {
 }
 
 .jbg.schemable.theme-dark[data-v-a1d75592] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -2254,7 +2254,7 @@ button.twitch[data-v-f5303469] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-a1d75592] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -2269,7 +2269,7 @@ button.twitch[data-v-f5303469] {
 }
 
 .jbg[data-v-a1d75592] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -2415,7 +2415,7 @@ button.twitch[data-v-f5303469] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-a1d75592 1.5s infinite ease-in-out
 }
@@ -2460,7 +2460,7 @@ button.twitch[data-v-f5303469] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -2500,7 +2500,7 @@ button.twitch[data-v-f5303469] {
 .toast.generic[data-v-a1d75592],
 .toast.reconnecting[data-v-a1d75592] {
     border-top: 6px solid #FFF;
-    background: #4254F4
+    background: #000000
 }
 
 .toast.generic .text[data-v-a1d75592],
@@ -2592,7 +2592,7 @@ button.twitch[data-v-f5303469] {
 
 @keyframes reconnecting-background-a1d75592 {
     0% {
-        background: #4254F4
+        background: #000000
     }
 
     to {
@@ -2635,7 +2635,7 @@ body {
 }
 
 .jbg.schemable.theme-dark[data-v-f058cb4c] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -2650,7 +2650,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-f058cb4c] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -2665,7 +2665,7 @@ body {
 }
 
 .jbg[data-v-f058cb4c] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -2811,7 +2811,7 @@ body {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-f058cb4c 1.5s infinite ease-in-out
 }
@@ -2856,7 +2856,7 @@ body {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -2891,7 +2891,7 @@ hr[data-v-f058cb4c] {
 }
 
 .jbg.schemable.theme-dark[data-v-ef24a772] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -2906,7 +2906,7 @@ hr[data-v-f058cb4c] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-ef24a772] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -2921,7 +2921,7 @@ hr[data-v-f058cb4c] {
 }
 
 .jbg[data-v-ef24a772] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -3067,7 +3067,7 @@ hr[data-v-f058cb4c] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-ef24a772 1.5s infinite ease-in-out
 }
@@ -3112,7 +3112,7 @@ hr[data-v-f058cb4c] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -3198,7 +3198,7 @@ button.audience.connecting:before {
 }
 
 .jbg.schemable.theme-dark[data-v-07bfe8a7] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -3213,7 +3213,7 @@ button.audience.connecting:before {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-07bfe8a7] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -3228,7 +3228,7 @@ button.audience.connecting:before {
 }
 
 .jbg[data-v-07bfe8a7] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -3374,7 +3374,7 @@ button.audience.connecting:before {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-07bfe8a7 1.5s infinite ease-in-out
 }
@@ -3419,7 +3419,7 @@ button.audience.connecting:before {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -3793,7 +3793,7 @@ button.audience.connecting:before {
 }
 
 .jbg.schemable.theme-dark[data-v-9c9808d1] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -3808,7 +3808,7 @@ button.audience.connecting:before {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-9c9808d1] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -3823,7 +3823,7 @@ button.audience.connecting:before {
 }
 
 .jbg[data-v-9c9808d1] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -3969,7 +3969,7 @@ button.audience.connecting:before {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-9c9808d1 1.5s infinite ease-in-out
 }
@@ -4014,7 +4014,7 @@ button.audience.connecting:before {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -4187,7 +4187,7 @@ button.audience.connecting:before {
 }
 
 .jbg.schemable.theme-dark[data-v-08558975] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -4202,7 +4202,7 @@ button.audience.connecting:before {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-08558975] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -4217,7 +4217,7 @@ button.audience.connecting:before {
 }
 
 .jbg[data-v-08558975] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -4363,7 +4363,7 @@ button.audience.connecting:before {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-08558975 1.5s infinite ease-in-out
 }
@@ -4408,7 +4408,7 @@ button.audience.connecting:before {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -4490,7 +4490,7 @@ button.audience.connecting:before {
 }
 
 .jbg.schemable.theme-dark[data-v-727b0bbe] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -4505,7 +4505,7 @@ button.audience.connecting:before {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-727b0bbe] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -4520,7 +4520,7 @@ button.audience.connecting:before {
 }
 
 .jbg[data-v-727b0bbe] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -4666,7 +4666,7 @@ button.audience.connecting:before {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-727b0bbe 1.5s infinite ease-in-out
 }
@@ -4711,7 +4711,7 @@ button.audience.connecting:before {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -4831,7 +4831,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.schemable.theme-dark[data-v-70c01ceb] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -4846,7 +4846,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-70c01ceb] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -4861,7 +4861,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg[data-v-70c01ceb] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -5007,7 +5007,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-70c01ceb 1.5s infinite ease-in-out
 }
@@ -5052,7 +5052,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -5107,7 +5107,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.schemable.theme-dark[data-v-1e5a97d3] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -5122,7 +5122,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-1e5a97d3] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -5137,7 +5137,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg[data-v-1e5a97d3] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -5283,7 +5283,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-1e5a97d3 1.5s infinite ease-in-out
 }
@@ -5328,7 +5328,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -5507,7 +5507,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.schemable.theme-dark[data-v-21e0f458] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -5522,7 +5522,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-21e0f458] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -5537,7 +5537,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg[data-v-21e0f458] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -5683,7 +5683,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-21e0f458 1.5s infinite ease-in-out
 }
@@ -5728,7 +5728,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -5808,7 +5808,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.schemable.theme-dark[data-v-0c67992c] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -5823,7 +5823,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-0c67992c] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -5838,7 +5838,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg[data-v-0c67992c] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -5984,7 +5984,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-0c67992c 1.5s infinite ease-in-out
 }
@@ -6029,7 +6029,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
@@ -6061,7 +6061,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 50px;
     width: 100%;
     padding: 12px 15px;
-    background: #4254F4;
+    background: #000000;
     user-select: none;
     color: #fff;
     z-index: 100
@@ -6140,7 +6140,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     top: 0px;
     left: 16px;
     background-color: #cf2929;
-    border: 3px solid #4254F4;
+    border: 3px solid #000000;
     border-radius: 50%;
     z-index: 1
 }
@@ -6167,7 +6167,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg.schemable.theme-dark[data-v-1c13d826] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
     --backgroundPrimary: #0a1420;
@@ -6182,7 +6182,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 
 @media (prefers-color-scheme: dark) {
     .jbg.schemable.theme-device[data-v-1c13d826] {
-        --accent: #4254F4;
+        --accent: #000000;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
         --backgroundPrimary: #0a1420;
@@ -6197,7 +6197,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
 }
 
 .jbg[data-v-1c13d826] {
-    --accent: #4254F4;
+    --accent: #000000;
     --alert: #cf2929;
     --shadows: rgba(128, 128, 128, .4);
     --backgroundPrimary: #fff;
@@ -6343,7 +6343,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     height: 12px;
     border: 2px solid #0E167D;
     border-radius: 50%;
-    background: #4254F4;
+    background: #000000;
     animation-fill-mode: both;
     animation: loading-1c13d826 1.5s infinite ease-in-out
 }
@@ -6388,7 +6388,7 @@ li.appearance svg .celestial[data-v-727b0bbe] {
     }
 
     50% {
-        background-color: #4254f4
+        background-color: #000000
     }
 }
 
