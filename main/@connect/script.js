@@ -13113,24 +13113,24 @@ ${n.message}`,
         }
     }
     const J3 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Назад",
+            CANCEL: "Отменить",
+            CLOSE: "Закрыть",
+            CONFIRM: "Подтвердить",
+            CREATE: "Создать",
+            DELETE: "Удалить",
+            DONE: "Готово",
+            EDIT: "Редакт.",
             OK: "OK",
-            NO: "No",
+            NO: "Нет",
             PLAY: "Играть",
             PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            REMOVE: "Убрать",
+            RESET: "Сбросить",
+            SUBMIT: "Подтвердить",
+            TRY_AGAIN: "Попробовать снова",
+            UNDO: "Назад",
+            YES: "Да"
         },
         Q3 = {
             UGC: {
@@ -24468,7 +24468,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos]"
         },
         Iee = {
             BRANCH: gee,
