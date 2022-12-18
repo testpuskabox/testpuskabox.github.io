@@ -11491,7 +11491,7 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Fibbage 4",
+            name: "Бредовуха 4",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -11499,7 +11499,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "Fibbage4Game"
         }, {
-            name: "Roomerang",
+            name: "Комнаранг",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
@@ -11507,7 +11507,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
         }, {
-            name: "Junktopia",
+            name: "Зарухлядье",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
@@ -11515,7 +11515,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "AntiqueGameGame"
         }, {
-            name: "Nonsensory",
+            name: "Безсвязица",
             tag: "range-game",
             wrapper: "vue",
             isPublic: !0,
@@ -11523,7 +11523,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Quixort",
+            name: "Скоросорт",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
@@ -13123,7 +13123,7 @@ ${n.message}`,
             EDIT: "Edit",
             OK: "OK",
             NO: "No",
-            PLAY: "Play",
+            PLAY: "Играть",
             PUBLISH: "Publish",
             REMOVE: "Remove",
             RESET: "Reset",
@@ -24384,10 +24384,10 @@ ${t}`
     });
     const gee = {
             LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Refresh Required",
-            PREFERRED: "PREFERRED BRANCH",
-            SELECT: "Select a Branch",
-            WAITING: "Waiting for Room"
+            REFRESH_REQUIRED: "Нужна перезагрузка",
+            PREFERRED: "ПРЕДЛАГАЕМЫЙ BRANCH",
+            SELECT: "Выберите Branch",
+            WAITING: "Ожидание комнаты"
         },
         mee = {
             UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
@@ -24404,67 +24404,66 @@ ${t}`
             FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         vee = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME: "ИМЯ",
+            NAME_PLACEHOLDER: "ВВЕДИТЕ ВАШЕ ИМЯ",
+            PASSWORD_PLACEHOLDER: "ВВЕДИТЕ 5-ТИ БУКВЕННЫЙ ПАРОЛЬ",
+            PASSWORD_REQUIRED_TITLE: "Запрашивается пароль",
+            PASSWORD_REQUIRED_BODY: "Пожалуйста введите пароль или зайдите к зрителям",
+            PASSWORD_JOIN_AS_PLAYER: "Зайти к игрокам",
+            PASSWORD_JOIN_AS_AUDIENCE: "Зайти к зрителям",
+            ROOM_CODE: "КОД КОМНАТЫ",
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4-ЁХ БУКВЕННЫЙ КОД"
         },
-        Eee = "Link to Jackbox Games Homepage",
+        Eee = "Ссылка на главную страницу Jackbox Games",
         _ee = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "ВНЕШНИЙ ВИД",
+            DARK: "тёмная",
+            HELP: "ПОМОЩЬ",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
+            LIGHT: "светлая",
+            LOGOUT: "ВЫЙТИ",
+            MERCH: "МЕРЧ",
+            PAST_GAMES: "ПРОШЕДШИЕ ИГРЫ",
             MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            MODERATOR: "МОДЕРАТОР"
         },
         yee = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "ПРОСМОТРЕТЬ & МАГАЗИН",
+                VIEW: "ПРОСМОТРЕТЬ"
             },
             NEW: "NEW",
             PLAYED_ON: "PLAYED ON",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Вы уверены?",
+                DESCRIPTION: `Эта игра навсегда будет удалена из списка прошедших игр.`,
+                MANAGE: "Удалить игру?",
+                TITLE: "Вы уверены?"
             }
         },
         bee = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Прошедших игр нет",
+            MANAGE: "УПРАВЛЯТЬ",
+            TITLE: "ВАШИ ПРОШЕДШИЕ ИГРЫ"
         },
         Tee = {
-            TITLE: "RECENT GAMES",
+            TITLE: "ПРОШЕДШИЕ ИГРЫ",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "ПРОСМОТРЕТЬ ВСЕ",
+                LINK: "ПРОСМОТРЕТЬ ВСЕ ПРОШЕДШИЕ ИГРЫ"
             }
         },
         See = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Игра переполнена",
+            GAME_STARTED: "Игра уже началась",
+            ROOM_NOT_FOUND: "Комната не найдена"
         },
         Oee = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "ИГРА ПЕРЕПОЛНЕНА",
+            GAME_STARTED: "ИГРА УЖЕ НАЧАЛАСЬ",
+            JOIN_AUDIENCE: "ЗАЙТИ К ЗРИТЕЛЯМ",
+            RECONNECT: "ПЕРЕЗАЙТИ",
+            TWITCH_LOGIN: "ЗАЙТИ С TWITCH"
         },
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
