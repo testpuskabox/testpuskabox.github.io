@@ -4731,7 +4731,7 @@ var dle = b3((ple, j2) => {
             return L8(t[0], ...t)
         }
     }
-    me(Gs, "locale"), me(Gs, "supported", ["en", "fr", "it", "de", "es", "es-XL", "ru"]);
+    me(Gs, "locale"), me(Gs, "supported", ["ru", "fr", "it", "de", "es", "es-XL", "ru"]);
     const Jp = class {
         static get serverUrl() {
             var n;
@@ -25186,7 +25186,7 @@ ${t}`
                     let s;
                     (l = n.room) != null && l.locale && (s = n.room.locale), (f = (c = n.match) == null ? void 0 : c.params) != null && f.locale && (s = n.match.params.locale), Gs.set(s);
                     const a = jte({
-                        fallbackLocale: "en",
+                        fallbackLocale: "ru",
                         locale: Gs.locale,
                         messages: Gs.mergeMessages(pU, (h = e.messages) != null ? h : {})
                     });
@@ -27170,7 +27170,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
             },
             methods: {
                 capitalizeFlair() {
-                    this.$i18n.locale === "en" && (this.flair = Wae(this.flair))
+                    this.$i18n.locale === "ru" && (this.flair = Wae(this.flair))
                 },
                 async onChooseFlair(e) {
                     if (!!this.player.responseKey) {
@@ -27220,7 +27220,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
                     if (!!this.player.textKeys.name) {
                         this.hasNameError = !1, this.isSubmitting = !0;
                         try {
-                            if (await this.$ecast.updateText(this.player.textKeys.name, this.personaName.toUpperCase()), await this.$ecast.lock(this.player.textKeys.name), this.$i18n.locale !== "en") {
+                            if (await this.$ecast.updateText(this.player.textKeys.name, this.personaName.toUpperCase()), await this.$ecast.lock(this.player.textKeys.name), this.$i18n.locale !== "ru") {
                                 if (!this.player.responseKey) return;
                                 await this.$ecast.updateObject(this.player.responseKey, {
                                     action: "gender",
@@ -27341,7 +27341,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
             "model-value": e.name,
             sanitizers: ["username"],
             "onUpdate:modelValue": e.onWriteName
-        }, null, 8, ["placeholder", "model-value", "onUpdate:modelValue"]), e.$i18n.locale !== "en" ? (D(), B("div", zae, [M("label", Xae, Ae(e.$t("LOBBY.INSTRUCTIONS.PRONOUN")), 1), Oe(M("select", {
+        }, null, 8, ["placeholder", "model-value", "onUpdate:modelValue"]), e.$i18n.locale !== "ru" ? (D(), B("div", zae, [M("label", Xae, Ae(e.$t("LOBBY.INSTRUCTIONS.PRONOUN")), 1), Oe(M("select", {
             id: "pronoun-select",
             "onUpdate:modelValue": t[0] || (t[0] = I => e.gender = I)
         }, [M("option", Jae, Ae(e.$t("LOBBY.PRONOUN.NEUTER")), 1), M("option", Zae, Ae(e.$t("LOBBY.PRONOUN.MASCULINE")), 1), M("option", Qae, Ae(e.$t("LOBBY.PRONOUN.FEMININE")), 1)], 512), [
