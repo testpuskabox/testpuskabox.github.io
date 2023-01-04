@@ -4731,7 +4731,7 @@ var dle = b3((ple, j2) => {
             return L8(t[0], ...t)
         }
     }
-    me(Gs, "locale"), me(Gs, "supported", ["ru", "fr", "it", "de", "es", "es-XL", "ru"]);
+    me(Gs, "locale"), me(Gs, "supported", ["ru", "fr", "it", "de", "es", "es-XL"]);
     const Jp = class {
         static get serverUrl() {
             var n;
