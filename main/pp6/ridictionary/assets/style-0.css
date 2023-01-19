@@ -23057,7 +23057,7 @@ li>a.button-color.active[data-color="#000000"] {
 
 @font-face {
     font-family: Sagona Book;
-    src: url(1a52303f.woff2), url(1cf159e5.woff) format("woff")
+    src: url(1cf159e5.woff), url(1cf159e5.woff) format("woff")
 }
 
 body,
