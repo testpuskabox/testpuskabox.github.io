@@ -11153,7 +11153,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "internal/ecast-test-client"
         }, {
-            name: "Quiplash 2 InterLASHional",
+            name: "Сдохлыст 2 ИнтерЛЫСТеональный",
             tag: "quiplash2-international",
             wrapper: "marionette",
             isPublic: !0,
@@ -11211,13 +11211,13 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Fibbage",
+            name: "Блефовальня",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Fibbage 2",
+            name: "Блефовальня 2",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11241,7 +11241,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp2/bombintern"
         }, {
-            name: "Quiplash",
+            name: "Сдохлыст",
             tag: "quiplash",
             wrapper: "marionette",
             isPublic: !0,
@@ -11261,7 +11261,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
         }, {
-            name: "Quiplash 2",
+            name: "Сдохлыст 2",
             tag: "quiplash2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11281,7 +11281,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp3/pollposition"
         }, {
-            name: "Fibbage 3",
+            name: "Блефовальня 3",
             tag: "fibbage3",
             wrapper: "marionette",
             isPublic: !0,
@@ -11375,7 +11375,7 @@ var Jre = rL((Zre, OA) => {
             directory: "pp6/jokeboat",
             categoryId: "JokeboatGame"
         }, {
-            name: "Dictionarium",
+            name: "Словариум/Диктаиум/Словарий/Текстариум/Диктарий/Текстарий",
             tag: "ridictionary",
             wrapper: "marionette",
             isPublic: !0,
@@ -11491,7 +11491,7 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Бредовуха 4",
+            name: "Блефовальня 4",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -11499,7 +11499,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "Fibbage4Game"
         }, {
-            name: "Комнаранг",
+            name: "Квартиранг",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
@@ -11507,7 +11507,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
         }, {
-            name: "Зарухлядье",
+            name: "Хламополис",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
