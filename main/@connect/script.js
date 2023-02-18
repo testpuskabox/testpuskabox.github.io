@@ -11211,13 +11211,13 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Блефовальня",
+            name: "Бредлам",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Блефовальня 2",
+            name: "Бредлам 2",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11491,7 +11491,7 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Блефовальня 4",
+            name: "Бредлам 4",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -26320,7 +26320,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://pusko-site.ga/banners.json")).json(),
+                        const n = await (await fetch("https://dev.puskabox.ru/banners.json")).json(),
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
@@ -26594,6 +26594,10 @@ de tu lista de partidas anteriores.`,
             onClick: t[4] || (t[4] = f => e.onLinkClick("help"))
         }, Ie(e.$t("MENU.HELP")), 1)]), Y("li", null, [Y("a", {
             href: "https://shop.jackboxgames.com",
+            target: "_blank",
+            onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
+        }, Ie(e.$t("MENU.OURSITE")), 1)]), Y("li", null, [Y("a", {
+            href: "https://pornhub.com",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         }, Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
