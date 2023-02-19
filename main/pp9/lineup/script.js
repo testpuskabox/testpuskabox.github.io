@@ -25341,16 +25341,16 @@ ${t}`
         jte = {
             LEFT: "left",
             RIGHT: "right",
-            SLAM: "slam",
-            FEED: "feed",
+            SLAM: "скинуть",
+            FEED: "покормить",
             YOU_UP_NEXT: "you are[line]up next[/line]",
             IS_UP_NEXT: "up next[line]{name}[/line]",
-            OTHER_TEAM: "up now[line]{team}[/line]",
-            UP_NEXT: "up next",
-            QUIXORTING: "quixorting",
-            FINAL: "final",
-            MUTE: "mute",
-            UNMUTE: "unmute",
+            OTHER_TEAM: "сейчас[line]{team}[/line]",
+            UP_NEXT: "дальше",
+            QUIXORTING: "скоросортируем",
+            FINAL: "финал",
+            MUTE: "заглушить",
+            UNMUTE: "включить",
             ATTENTION: "! whoa there !",
             ATTENTION_MESSAGE: "you are at capacity and must trash a block before placing another one"
         },
@@ -25379,9 +25379,9 @@ ${t}`
             TAP_TO_TRASH: "TAP TO TRASH"
         },
         Kte = {
-            CHOOSE_AVATAR: "Choose your avatar",
-            CHOOSE_TEAM: "Choose your team",
-            CHOOSE_TEAM_AUDIENCE: "Choose the team you would like to join"
+            CHOOSE_AVATAR: "Выберите свой аватар",
+            CHOOSE_TEAM: "Выберите свою команду",
+            CHOOSE_TEAM_AUDIENCE: "Выберите команду, к которой бы предпочли приесоединиться"
         },
         Yte = "wait",
         qte = {
