@@ -11211,13 +11211,13 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Бредлам",
+            name: "Бредовуха",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Бредлам 2",
+            name: "Бредовуха 2",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11491,7 +11491,7 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Бредлам 4",
+            name: "Бредовуха 4",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -26597,11 +26597,7 @@ de tu lista de partidas anteriores.`,
             href: "https://shop.jackboxgames.com",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
-        }, Ie(e.$t("НАШ САЙТ")), 1)]), Y("li", null, [Y("a", {
-            href: "https://pornhub.com",
-            target: "_blank",
-            onClick: t[5] || (t[5] = f => e.onLinkClick("oursite"))
-        }, Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
+        },Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
             onKeyup: t[6] || (t[6] = Hs((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["enter"])),
             onClick: t[7] || (t[7] = Bt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
         }, [Bn(Ie(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (z(), Q("div", Ore)) : we("", !0)], 32)]), ft(c), e.shouldShowPreferredBranch ? (z(), nr(u, {
