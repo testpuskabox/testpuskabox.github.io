@@ -12929,21 +12929,21 @@ Url: ${Wr(t)}`), !0)
     const n0 = () => {
             Gt.resolve()
         },
-        i0 = "production",
+        i0 = "puskabox",
         a0 = 1,
         s0 = {
             branch: "main",
             sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
             lastUpdated: 1672941040347,
             version: "5.93.0p",
-            type: "production"
+            type: "custom"
         },
         o0 = {
             main: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0p",
-                type: "production",
+                type: "custom",
                 bundles: {
                     "@connect": {
                         file: "script.js",
