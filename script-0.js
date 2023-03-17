@@ -12932,14 +12932,14 @@ Url: ${Wr(t)}`), !0)
         i0 = "puskabox",
         a0 = 1,
         s0 = {
-            branch: "Стандартная",
+            main: "Стандартная",
             sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
             lastUpdated: 1672941040347,
             version: "5.93.0",
             type: "custom"
         },
         o0 = {
-            Стандартная: {
+            main: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
@@ -13337,7 +13337,8 @@ Url: ${Wr(t)}`), !0)
         register: rr.register,
         mount: rr.mount,
         connect: rr.connect,
-        manifest: Kr
+        manifest: Kr,
+        main: стандартная
     };
     TS(Kr);
     ao.setup();
