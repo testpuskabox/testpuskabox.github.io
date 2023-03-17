@@ -11953,7 +11953,7 @@ Url: ${Wr(t)}`), !0)
             if ((o = i["** hmr **"]) != null && o.bundles[e.app]) return "** hmr **";
             if (n && ((c = i[n]) == null ? void 0 : c.bundles[e.app])) return n;
             if ((l = i["** dist **"]) != null && l.bundles[e.app]) return "** dist **";
-            if (i.main) return "main";
+            if (i.main) return "стандартная";
             throw new Error("[loader] Could not resolve a branch name and main is not available")
         }
         getS3Url(e, r) {
@@ -12939,7 +12939,7 @@ Url: ${Wr(t)}`), !0)
             type: "custom"
         },
         o0 = {
-            main: {
+            стандартная: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
@@ -13337,8 +13337,7 @@ Url: ${Wr(t)}`), !0)
         register: rr.register,
         mount: rr.mount,
         connect: rr.connect,
-        manifest: Kr,
-        main: стандартная
+        manifest: Kr
     };
     TS(Kr);
     ao.setup();
