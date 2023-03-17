@@ -12939,7 +12939,7 @@ Url: ${Wr(t)}`), !0)
             type: "custom"
         },
         o0 = {
-            Стандартная: {
+            main: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
