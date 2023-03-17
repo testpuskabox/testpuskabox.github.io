@@ -12935,14 +12935,14 @@ Url: ${Wr(t)}`), !0)
             branch: "main",
             sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
             lastUpdated: 1672941040347,
-            version: "5.93.0",
+            version: "5.93.0p",
             type: "production"
         },
         o0 = {
             main: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
-                version: "5.93.0",
+                version: "5.93.0p",
                 type: "production",
                 bundles: {
                     "@connect": {
