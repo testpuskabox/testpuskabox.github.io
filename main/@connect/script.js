@@ -24385,7 +24385,7 @@ ${t}`
     const gee = {
             LABEL: "ВЕТВЬ",
             REFRESH_REQUIRED: "Требуется перезагрузка",
-            PREFERRED: "СТАНДАРТНАЯ ВЕТВЬ",
+            PREFERRED: "ВЫБРАННАЯ ВЕТВЬ",
             SELECT: "Выберите Ветвь",
             WAITING: "Ожидание комнаты"
         },
