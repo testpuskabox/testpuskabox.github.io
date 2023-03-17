@@ -24383,7 +24383,7 @@ ${t}`
         }
     });
     const gee = {
-            LABEL: "ВЕТВЬ <a href="pusko.site">ⓘ</a>",
+            LABEL: "ВЕТВЬ",
             REFRESH_REQUIRED: "Требуется перезагрузка",
             PREFERRED: "ВЫБРАННАЯ ВЕТВЬ",
             SELECT: "Выберите Ветвь",
