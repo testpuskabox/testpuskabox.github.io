@@ -12969,12 +12969,6 @@ Url: ${Wr(t)}`), !0)
                         base: "main/@moderator",
                         version: "5.55.0"
                     },
-                    "awshirt-tjsp": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/tjsp/awshirt",
-                        version: "5.20.0"
-                    },
                     "ecast-test-client": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
