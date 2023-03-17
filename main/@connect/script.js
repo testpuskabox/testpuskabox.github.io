@@ -24383,10 +24383,10 @@ ${t}`
         }
     });
     const gee = {
-            LABEL: "BRANCH",
-            REFRESH_REQUIRED: "Нужна перезагрузка",
-            PREFERRED: "ПРЕДЛАГАЕМЫЙ BRANCH",
-            SELECT: "Выберите Branch",
+            LABEL: "ВЕТВЬ",
+            REFRESH_REQUIRED: "Требуется перезагрузка",
+            PREFERRED: "СТАНДАРТНАЯ ВЕТВЬ",
+            SELECT: "Выберите Ветвь",
             WAITING: "Ожидание комнаты"
         },
         mee = {
