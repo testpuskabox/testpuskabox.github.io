@@ -11953,8 +11953,8 @@ Url: ${Wr(t)}`), !0)
             if ((o = i["** hmr **"]) != null && o.bundles[e.app]) return "** hmr **";
             if (n && ((c = i[n]) == null ? void 0 : c.bundles[e.app])) return n;
             if ((l = i["** dist **"]) != null && l.bundles[e.app]) return "** dist **";
-            if (i.стандартная) return "стандартная";
-            throw new Error("[loader] Could not resolve a branch name and main is not available")
+            if (i.Стандартная) return "Cтандартная";
+            throw new Error("[loader] Could not resolve a branch name and Стандартная is not available")
         }
         getS3Url(e, r) {
             return `${r}/${e}`
@@ -12932,14 +12932,14 @@ Url: ${Wr(t)}`), !0)
         i0 = "puskabox",
         a0 = 1,
         s0 = {
-            стандартная: "Стандартная",
+            Стандартная: "Стандартная",
             sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
             lastUpdated: 1672941040347,
             version: "5.93.0",
             type: "custom"
         },
         o0 = {
-            стандартная: {
+            Стандартная: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
@@ -13284,7 +13284,7 @@ Url: ${Wr(t)}`), !0)
                 }
             },
 
-            Мод: {
+            Модифицированная: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
