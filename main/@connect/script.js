@@ -12925,7 +12925,7 @@ var Jre = rL((Zre, OA) => {
                     TV_ADROLL_PIXEL_ID: "WN335VM7RVAMPDZAOWMIHP",
                     TV_CDN_IMAGES_URL: "https://s3.amazonaws.com/static.jackboxgames.com/game-images",
                     TV_DEBUG: "false",
-                    TV_DOMAINS: "https://dev.puskabox.ga,https://puskabox.ga,https://tinyshirts.jackboxgames.com",
+                    TV_DOMAINS: "https://dev.jackbox.tv,https://qa.jackbox.tv,https://jackbox.tv,https://tinyshirts.jackboxgames.com",
                     TV_ECAST: "ecast.jackboxgames.com",
                     TV_GA_STREAM_ID: "3795853220",
                     TV_GA_MEASUREMENT_ID: "G-V1QJVQMYF1",
