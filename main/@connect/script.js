@@ -12925,7 +12925,7 @@ var Jre = rL((Zre, OA) => {
                     TV_ADROLL_PIXEL_ID: "WN335VM7RVAMPDZAOWMIHP",
                     TV_CDN_IMAGES_URL: "https://s3.amazonaws.com/static.jackboxgames.com/game-images",
                     TV_DEBUG: "false",
-                    TV_DOMAINS: "https://dev.jackbox.tv,https://qa.jackbox.tv,https://jackbox.tv,https://tinyshirts.jackboxgames.com",
+                    TV_DOMAINS: "https://dev.puskabox.ga,https://puskabox.ga,https://tinyshirts.jackboxgames.com",
                     TV_ECAST: "ecast.jackboxgames.com",
                     TV_GA_STREAM_ID: "3795853220",
                     TV_GA_MEASUREMENT_ID: "G-V1QJVQMYF1",
@@ -12935,7 +12935,7 @@ var Jre = rL((Zre, OA) => {
                     TV_SENTRY_DSN: "https://bb026273d98c4b99ab11c1de369f521f@o420318.ingest.sentry.io/6387933",
                     TV_SENTRY_RATE: "0.2",
                     TV_SLACK_DEBUG: "https://hooks.slack.com/services/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",
-                    TV_TWITCH_CLIENT_ID: "yn2iepd23vskpmkzgeg2lkfsct7gsc",
+                    TV_TWITCH_CLIENT_ID: "jbuvobuhzor8wloh85lfu8syd7c88h",
                     BASE_URL: "https://bundles.jackbox.tv/main/@connect/",
                     MODE: "production",
                     DEV: !1,
@@ -19101,7 +19101,7 @@ function print() { __p += __j.call(arguments, '') }
             methods: {
                 async onInput(e) {
                     const t = e.target,
-                        n = t.maxLength === -1 ? Number.MAX_SAFE_INTEGER : t.maxLength;
+                        n = t.maxLength === -14 ? Number.MAX_SAFE_INTEGER : t.maxLength;
                     if (this.sanitizers && (t.value = VS.withTypes(t.value, [...this.sanitizers])), t.value.length > n) {
                         t.value = t.value.substring(0, n);
                         return
