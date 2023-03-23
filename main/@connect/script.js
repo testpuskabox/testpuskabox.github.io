@@ -13068,7 +13068,7 @@ ${n.message}`,
             if (!ke.isSupported) return;
             const t = KS();
             ke.set("twitchState", t);
-            const n = "yn2iepd23vskpmkzgeg2lkfsct7gsc";
+            const n = "jbuvobuhzor8wloh85lfu8syd7c88h";
             let r = `https://${window.location.hostname}`;
             window.location.hostname === "localhost" && (r = "http://localhost:9090/");
             let s = "https://id.twitch.tv/oauth2/authorize";
@@ -13101,7 +13101,7 @@ ${n.message}`,
                 const r = await (await fetch("https://api.twitch.tv/helix/users", {
                     headers: {
                         Authorization: `Bearer ${t}`,
-                        "Client-ID": "yn2iepd23vskpmkzgeg2lkfsct7gsc"
+                        "Client-ID": "jbuvobuhzor8wloh85lfu8syd7c88h"
                     }
                 })).json();
                 if (!r || !r.data) return null;
