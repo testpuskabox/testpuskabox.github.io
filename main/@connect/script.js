@@ -26562,7 +26562,7 @@ de tu lista de partidas anteriores.`,
             class: "moderator"
         },
         Sre = {
-            href: "/модератор"
+            href: "/xn--80ahd0akdmcq"
         },
         Ore = {
             key: 0,
