@@ -24434,7 +24434,7 @@ ${t}`
                 VIEW: "ПРОСМОТРЕТЬ"
             },
             NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            PLAYED_ON: "СЫГРАНО",
             REMOVE: {
                 CONFIRM: "Вы уверены?",
                 DESCRIPTION: `Эта игра навсегда будет удалена из списка прошедших игр.`,
@@ -26562,7 +26562,7 @@ de tu lista de partidas anteriores.`,
             class: "moderator"
         },
         Sre = {
-            href: "/moderator"
+            href: "/модератор"
         },
         Ore = {
             key: 0,
