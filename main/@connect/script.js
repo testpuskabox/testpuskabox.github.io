@@ -11153,13 +11153,13 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "internal/ecast-test-client"
         }, {
-            name: "Сдохлыст 2 ИнтерЛЫСТеональный",
+            name: "Смехлыст 2 ИнтерЛЫСТиональный",
             tag: "quiplash2-international",
             wrapper: "marionette",
             isPublic: !0,
             directory: "standalone/quiplash2-international",
             categoryId: "quiplash2-internationalGame"
-        }, {
+        } /*{
             name: "Guesspionage Crowdplay",
             tag: "guesspionage-crowdplay",
             wrapper: "marionette",
@@ -11211,13 +11211,13 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp1/lieswatter"
         }, {
-            name: "Бредовуха",
+            name: "Fibbage",
             tag: "fibbage",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/fibbage"
         }, {
-            name: "Бредовуха 2",
+            name: "Fibbage 2",
             tag: "fibbage2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11241,7 +11241,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp2/bombintern"
         }, {
-            name: "Сдохлыст",
+            name: "Quiplash",
             tag: "quiplash",
             wrapper: "marionette",
             isPublic: !0,
@@ -11261,7 +11261,7 @@ var Jre = rL((Zre, OA) => {
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
         }, {
-            name: "Сдохлыст 2",
+            name: "Quiplash 2",
             tag: "quiplash2",
             wrapper: "marionette",
             isPublic: !0,
@@ -11281,7 +11281,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp3/pollposition"
         }, {
-            name: "Блефовальня 3",
+            name: "Fibbage 3",
             tag: "fibbage3",
             wrapper: "marionette",
             isPublic: !0,
@@ -11375,7 +11375,7 @@ var Jre = rL((Zre, OA) => {
             directory: "pp6/jokeboat",
             categoryId: "JokeboatGame"
         }, {
-            name: "Словариум/Диктаиум/Словарий/Текстариум/Диктарий/Текстарий",
+            name: "Dictionarium",
             tag: "ridictionary",
             wrapper: "marionette",
             isPublic: !0,
@@ -11491,7 +11491,7 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/triviadeath2",
             categoryId: "TriviaMurderParty2Game"
         }, {
-            name: "Бредовуха 4",
+            name: "Fibbage 4",
             tag: "fourbage",
             wrapper: "vue",
             isPublic: !0,
@@ -11499,7 +11499,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "Fibbage4Game"
         }, {
-            name: "Квартиранг",
+            name: "Roomerang",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
@@ -11507,7 +11507,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
         }, {
-            name: "Хламополис",
+            name: "Junktopia",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
@@ -11515,7 +11515,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "AntiqueGameGame"
         }, {
-            name: "Безсвязица",
+            name: "Nonsensory",
             tag: "range-game",
             wrapper: "vue",
             isPublic: !0,
@@ -11523,14 +11523,14 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Скоросорт",
+            name: "Quixort",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/lineup",
             features: ["kicking", "previews"],
             categoryId: "LineupGame"
-        }],
+        }*/],
         Io = e => U3.find(t => t.tag === e || t.categoryId === e);
 
     function F3(...e) {
@@ -13141,16 +13141,16 @@ ${n.message}`,
             }
         },
         Z3 = {
-            DISCONNECTED: "You have been disconnected.",
+            DISCONNECTED: "Вы были отключены.",
             DRAWING_NOTHING: "You have to draw something!",
             PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
+            ROOM_DESTROYED: "Спасибо вам за игру!",
+            ROOM_DISCONNECTED: "Отключено",
             TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
             TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            TITLE: "Ошибка"
         },
-        eH = "LOADING",
+        eH = "ЗАГРУЗКА",
         tH = {
             JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
             PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
@@ -13214,8 +13214,8 @@ ${n.message}`,
                 WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ПЕРЕПОДКЛЮЧЕНО",
+                SUBTEXT: "Веселись!"
             },
             RECONNECTING: {
                 CONTROLLER: {
@@ -24400,7 +24400,7 @@ ${t}`
             REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
             ROOM_IS_LOCKED: "Game is locked",
             INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Error joining this game",
+            GENERIC: "Ошибка при входе в игру. Скорее всего эта игра отсутсвует или выключена на сайте. Попробуй зайти через qa.jackbox.pro.",
             FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         vee = {
