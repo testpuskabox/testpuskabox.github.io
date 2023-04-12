@@ -11872,7 +11872,7 @@ Url: ${Wr(t)}`), !0)
             n === void 0 || n === i || Us(de())
         }))
     }
-    const wS = "ОШИБКА ЗАГРУЗКИ. ПЕРЕЗАГРУЗИТЬ СТРАНИЦУ?",
+    const wS = "UNABLE TO LOAD. TAP TO TRY AGAIN.",
         SS = {
             RETRY: wS
         },
@@ -12929,21 +12929,21 @@ Url: ${Wr(t)}`), !0)
     const n0 = () => {
             Gt.resolve()
         },
-        i0 = "puskabox",
+        i0 = "production",
         a0 = 1,
         s0 = {
-            main: "main",
+            branch: "main",
             sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
             lastUpdated: 1672941040347,
             version: "5.93.0",
-            type: "custom"
+            type: "production"
         },
         o0 = {
             main: {
                 sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
                 lastUpdated: 1672941040347,
                 version: "5.93.0",
-                type: "custom",
+                type: "production",
                 bundles: {
                     "@connect": {
                         file: "script.js",
@@ -12968,6 +12968,12 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/@moderator",
                         version: "5.55.0"
+                    },
+                    "awshirt-tjsp": {
+                        file: "script.js",
+                        css: ["assets/style-0.css"],
+                        base: "main/tjsp/awshirt",
+                        version: "5.20.0"
                     },
                     "ecast-test-client": {
                         file: "script.js",
@@ -13274,45 +13280,6 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp9/range-game",
                         version: "5.88.0"
-                    },
-                    prototype: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/internal/prototype",
-                        version: "5.91.0"
-                    }
-                }
-            },
-
-            Модифицированная: {
-                sha: "d494c3bd5d2b5eaeba8934fec33ea08da0e17334",
-                lastUpdated: 1672941040347,
-                version: "5.93.0",
-                type: "modification",
-                bundles: {
-                    "@connect": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/@connect",
-                        version: "5.87.0"
-                    },
-                    "@moderator": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/@moderator",
-                        version: "5.55.0"
-                    },
-                    "ecast-test-client": {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "main/internal/ecast-test-client",
-                        version: "5.0.0"
-                    },
-                    triviadeath2: {
-                        file: "script.js",
-                        css: ["assets/style-0.css"],
-                        base: "mod/pp6/triviadeath2",
-                        version: "5.3.0"
                     },
                     prototype: {
                         file: "script.js",
