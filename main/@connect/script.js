@@ -26321,7 +26321,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://dev.puskabox.ru/banners.json")).json(),
+                        const n = await (await fetch("https://host.pusko.site/pro/banners.json")).json(),
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
@@ -26336,6 +26336,18 @@ de tu lista de partidas anteriores.`,
                 },
                 showDefault() {
                     this.banners = [{
+                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
+                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
+                        text: "AVAILABLE NOW!"
+                    },{
+                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
+                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
+                        text: "AVAILABLE NOW!"
+                    },{
+                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
+                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
+                        text: "AVAILABLE NOW!"
+                    },{
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
                         image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
                         text: "AVAILABLE NOW!"
