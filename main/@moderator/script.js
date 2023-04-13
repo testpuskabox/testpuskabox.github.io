@@ -13669,13 +13669,13 @@ ${r.message}`,
         o4 = {
             NAME: "NAME",
             NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
+            PASSWORD_PLACEHOLDER: "5-ТИ ЗНАЧНЫЙ ПАРОЛЬ",
             PASSWORD_REQUIRED_TITLE: "Password required",
             PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
             PASSWORD_JOIN_AS_PLAYER: "Join as Player",
             PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            ROOM_CODE: "КОД КОМНАТЫ",
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4-ЁХ БУКВЕННЫЙ КОД"
         },
         c4 = "Link to Jackbox Games Homepage",
         l4 = {
@@ -24833,28 +24833,28 @@ ${t}`
         }
     });
     const Nte = {
-            GAME: "Game",
-            PASSWORD: "PASSWORD"
+            GAME: "Игра",
+            PASSWORD: "ПАРОЛЬ"
         },
         $te = {
-            KICK: "Kick?",
-            KICK_PLAYERS: "KICK PLAYERS",
-            MODERATE: "Moderate",
-            APPROVE_ALL: "Approve All",
-            REJECT_ALL: "Reject All"
+            KICK: "Выгнать?",
+            KICK_PLAYERS: "ВЫГНАТЬ ИГРОКА",
+            MODERATE: "Модерировать",
+            APPROVE_ALL: "Принять всё",
+            REJECT_ALL: "Отклонить всё"
         },
         Lte = {
-            ROOM_DESTROYED: "Thanks for helping out!"
+            ROOM_DESTROYED: "Спасибо за оказание помощи!"
         },
         Pte = {
-            DISABLED: "Moderation Disabled",
-            KICKED: "KICKED",
-            UNSUPPORTED: "Moderation Unsupported",
-            WAITING_FOR_SUBMISSIONS: "Waiting for submissions"
+            DISABLED: "Модерация отключена",
+            KICKED: "ВЫГНАН(А)",
+            UNSUPPORTED: "Модерация не поддерживается",
+            WAITING_FOR_SUBMISSIONS: "Ожидаем предложения..."
         },
         Dte = {
-            DISABLED: "The moderation setting for this game is turned off. Turn it on and restart the game to moderate content.",
-            UNSUPPORTED: "{gameName} doesn't have anything to moderate, but thanks for wanting to help out!"
+            DISABLED: "В этой игре функция модерирования отключена. Включите её и перезапустите игру, чтобы функция сработала.",
+            UNSUPPORTED: "В {gameName} нечего модерировать, но всё равно спасибо за оказание помощи!"
         },
         kte = "Submitted by:",
         Mte = {
