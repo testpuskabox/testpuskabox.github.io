@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import"https://fonts.googleapis.com/css2?family=Podkova:400,700&display=swap";
+@import"https://fonts.googleapis.com/css?family=Podkova:400,700&subset=cyrillic";
 
 .post-banner {
     position: fixed;
