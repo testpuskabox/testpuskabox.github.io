@@ -12926,7 +12926,7 @@ ${r.message}`,
             DRAWING_NOTHING: "You have to draw something!",
             PLAYER_KICKED: "You have been kicked from the game by a moderator.",
             ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
+            ROOM_DISCONNECTED: "ОТКЛЮЧЕНО",
             TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
             TEXT_NOTHING: "You can\u2019t enter nothing!",
             TITLE: "Error"
@@ -24856,7 +24856,7 @@ ${t}`
             DISABLED: "В этой игре функция модерирования отключена. Включите её и перезапустите игру, чтобы функция сработала.",
             UNSUPPORTED: "В {gameName} нечего модерировать, но всё равно спасибо за оказание помощи!"
         },
-        kte = "Submitted by:",
+        kte = "Автор:",
         Mte = {
             FORM: Nte,
             ACTION: $te,
