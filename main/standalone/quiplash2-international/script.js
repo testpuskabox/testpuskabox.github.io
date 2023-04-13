@@ -8047,10 +8047,10 @@ const pl = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
-        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -16811,8 +16811,8 @@ xt.View.extend({
     },
     onRoomWasDestroyed() {
         en.remove("roomCode"), en.remove("reconnect"), Ot.show("error", {
-            titleText: "Disconnected",
-            text: "Thanks for playing!",
+            titleText: "Отключено",
+            text: "Спасибо вам за игру!",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -16820,8 +16820,8 @@ xt.View.extend({
     },
     onDisconnected() {
         Ot.show("error", {
-            titleText: "Disconnected",
-            text: "You have been disconnected.",
+            titleText: "Отключено",
+            text: "Спасибо вам за игру!",
             willClose: () => {
                 window.location.reload(!0)
             }
@@ -17346,12 +17346,12 @@ const $C = `<div id="controller" class="state-controller controller-content">
     $s = {
         en: {
             LANGUAGE_NAME: "English",
-            SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol"],
-            SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
+            SUPPORTED_LANGUAGES: ["English"],
+            SUPPORTED_LOCALES: ["en"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Отключено",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Спасибо вам за игру!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
