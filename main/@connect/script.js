@@ -7588,7 +7588,7 @@ var Jre = rL((Zre, OA) => {
             return this.htmlEscape(n).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u410-\u42F\u430-\u44F\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
             return t = t.replace("\u2026", "..."), t.replace(/[^\u410-\u42F\u430-\u44F\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
