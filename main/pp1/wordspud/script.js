@@ -21025,7 +21025,7 @@ const $x = Et.View.extend({
     <div id="game" class="game pt-pageholder">
         <div class="pt-page-off wordspud-page state-waiting">
             <div class="container gameplay">
-                <h3>Waiting for players</h3>
+                <h3>Ожидаем игроков...</h3>
             </div>      
         </div>
 
@@ -21033,7 +21033,7 @@ const $x = Et.View.extend({
             <div class="container gameplay">
                 <h3>press this button when everybody has joined</h3>
                 <form class="pure-form">
-                    <button type="submit" id="button-start-game" class="button-wordspud button-xlarge pure-button pure-input-1">EVERYBODY'S IN</button>
+                    <button type="submit" id="button-start-game" class="button-wordspud button-xlarge pure-button pure-input-1">ВСЕ ЗДЕСЬ</button>
                 </form>
             </div>      
         </div>
@@ -21041,13 +21041,13 @@ const $x = Et.View.extend({
         <div class="pt-page-off wordspud-page state-writing">
             <div class="container gameplay">
                 <h2 id="wordspud-writing-root"></h2>
-                <p>it's your turn!</p>
+                <p>Твой черёд!</p>
                 <form class="pure-form">
                     <div class="pure-u-1">
                         <input id="wordspud-input" name="spud" class="pure-input-1 spud jbg-input" type="text" placeholder="Type Something" autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="32">
                     </div>
                     <div class="pure-u-1-2 right">
-                        <div class="wordspud-submit"><button type="submit" id="wordspud-submit" class="button-wordspud pure-button button-large pure-input-1"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button></div>
+                        <div class="wordspud-submit"><button type="submit" id="wordspud-submit" class="button-wordspud pure-button button-large pure-input-1"><i class="fas fa-paper-plane"></i>Отправить</button></div>
                     </div>
                 </form>
             </div>      
@@ -21056,10 +21056,10 @@ const $x = Et.View.extend({
         <div class="pt-page-off wordspud-page state-vote">
             <h2 id="wordspud-vote-spud"></h2>
             <div class="container gameplay">
-                <h3>do you like it?</h3>
+                <h3>Тебе нравится?</h3>
                 <form class="pure-form">
-                    <div class="wordspud-vote-yes" data-vote="1"><button id="wordspud-vote-yes" data-vote="1" class="button-wordspud-yes button-xlarge pure-button pure-input-1"><i class="fas fa-check"></i>&nbsp;&nbsp;YES</button></div>
-                    <div class="wordspud-vote-no" data-vote="-1"><button id="wordspud-vote-no" class="button-wordspud-no button-xlarge pure-button pure-input-1"><i class="fas fa-times"></i>&nbsp;&nbsp;NO</button></div>
+                    <div class="wordspud-vote-yes" data-vote="1"><button id="wordspud-vote-yes" data-vote="1" class="button-wordspud-yes button-xlarge pure-button pure-input-1"><i class="fas fa-check"></i>&nbsp;ДА</button></div>
+                    <div class="wordspud-vote-no" data-vote="-1"><button id="wordspud-vote-no" class="button-wordspud-no button-xlarge pure-button pure-input-1"><i class="fas fa-times"></i>&nbsp;&nbsp;НЕТ</button></div>
                 </form>
             </div>
         </div>
@@ -21067,20 +21067,20 @@ const $x = Et.View.extend({
         <div class="pt-page-off wordspud-page state-vote-wait">
             <div class="container gameplay">
                 <h2 id="wordspud-vote-wait-spud"></h2>
-                <h3>you are being judged.</h3>
+                <h3>Тебя оценивают.</h3>
             </div>
         </div>     
 
         <div class="pt-page-off wordspud-page state-nothing">
             <div class="container gameplay">
                 <h2 id="wordspud-nothing-root"></h2>
-                <p>add your own commentary</p>
+                <p>Оставь комментарий</p>
                 <form class="pure-form">
                     <div class="pure-u-1">
-                        <input id="wordspud-comment" name="comment" class="pure-input-1 comment jbg-input" type="text" placeholder="Type Something" autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="50" >
+                        <input id="wordspud-comment" name="comment" class="pure-input-1 comment jbg-input" type="text" placeholder="Напиши что-нибдуь" autocapitalize="off" autocorrect="off" autocomplete="off" maxlength="50" >
                     </div>
                     <div class="pure-u-1-2 right">
-                        <div class="wordspud-comment-submit"><button type="submit" id="wordspud-comment-submit" class="button-wordspud pure-button button-large pure-input-1"><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send</button></div>
+                        <div class="wordspud-comment-submit"><button type="submit" id="wordspud-comment-submit" class="button-wordspud pure-button button-large pure-input-1"><i class="fas fa-paper-plane"></i>Отправить</button></div>
                     </div>
                 </form>
             </div>
@@ -21096,8 +21096,8 @@ const $x = Et.View.extend({
         <div class="pt-page-off wordspud-page state-gameover">
             <div class="container gameplay">
                 <form class="pure-form">
-                    <button type="button" id="wordspud-keep-playing" data-vote="1" class="button-wordspud button-xlarge pure-button pure-input-1">Next Round</button>
-                    <button type="button" id="wordspud-new-game" data-vote="-1" class="button-wordspud button-xlarge pure-button pure-input-1">New Game</button>
+                    <button type="button" id="wordspud-keep-playing" data-vote="1" class="button-wordspud button-xlarge pure-button pure-input-1">След. Раунд</button>
+                    <button type="button" id="wordspud-new-game" data-vote="-1" class="button-wordspud button-xlarge pure-button pure-input-1">Новая Игра</button>
                 </form>
             </div>
         </div>
