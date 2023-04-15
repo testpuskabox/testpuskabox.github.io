@@ -11159,7 +11159,7 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "standalone/quiplash2-international",
             categoryId: "quiplash2-internationalGame"
-        } /*{
+        }, /*{
             name: "Guesspionage Crowdplay",
             tag: "guesspionage-crowdplay",
             wrapper: "marionette",
@@ -11204,7 +11204,7 @@ var Jre = rL((Zre, OA) => {
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
-        },/* {
+        }/* {
             name: "Lie Swatter",
             tag: "lieswatter",
             wrapper: "marionette",
