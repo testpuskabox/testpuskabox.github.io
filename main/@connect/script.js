@@ -11198,13 +11198,13 @@ var Jre = rL((Zre, OA) => {
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/drawful"
-        }, {
-            name: "Word Spud",
+        }, */{
+            name: "Плодослов",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
-        }, {
+        },/* {
             name: "Lie Swatter",
             tag: "lieswatter",
             wrapper: "marionette",
