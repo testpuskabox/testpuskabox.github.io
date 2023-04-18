@@ -26610,6 +26610,10 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         },Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
+            href: "https://pusko.site",
+            target: "_blank",
+            onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
+        },Ie(e.$t("MENU.OURSITE")), 1)]), Y("li", null, [Y("a", {
             onKeyup: t[6] || (t[6] = Hs((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["enter"])),
             onClick: t[7] || (t[7] = Bt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
         }, [Bn(Ie(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (z(), Q("div", Ore)) : we("", !0)], 32)]), ft(c), e.shouldShowPreferredBranch ? (z(), nr(u, {
