@@ -24422,10 +24422,9 @@ ${t}`
             TWITCH: "TWITCH",
             LIGHT: "светлая",
             LOGOUT: "ВЫЙТИ",
-            OURSITE: "НАШ САЙТ",
+            OURSITE: "ГЛАВНЫЙ САЙТ",
             MERCH: "МЕРЧ",
             PAST_GAMES: "ПРОШЕДШИЕ ИГРЫ",
-            MAILING_LIST: "MAILING LIST",
             MODERATOR: "МОДЕРАТОР"
         },
         yee = {
@@ -26622,8 +26621,8 @@ de tu lista de partidas anteriores.`,
             class: "facebook",
             "aria-label": "facebook",
             target: "_blank",
-            href: "https://www.facebook.com/JackboxGames",
-            onClick: t[8] || (t[8] = f => e.onLinkClick("https://www.facebook.com/JackboxGames"))
+            href: "https://boosty.to/puskanyaww",
+            onClick: t[8] || (t[8] = f => e.onLinkClick("https://boosty.to/puskanyaww"))
         }), Y("a", {
             class: "twitter",
             "aria-label": "twitter",
@@ -26634,8 +26633,8 @@ de tu lista de partidas anteriores.`,
             class: "instagram",
             "aria-label": "instagram",
             target: "_blank",
-            href: "https://www.instagram.com/playjackboxgames",
-            onClick: t[10] || (t[10] = f => e.onLinkClick("https://www.instagram.com/playjackboxgames"))
+            href: "https://www.youtube.com/channel/UCAYkCy4Bmq1p-vGf3y-GnBg",
+            onClick: t[10] || (t[10] = f => e.onLinkClick("https://www.youtube.com/channel/UCAYkCy4Bmq1p-vGf3y-GnBg"))
         })]), Y("li", Ire, [Y("a", wre, Ie(e.version), 1)])])])
     }
     const Rre = yt(Ere, [
