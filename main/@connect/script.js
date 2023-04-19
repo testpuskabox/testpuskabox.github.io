@@ -4926,7 +4926,7 @@ var Jre = rL((Zre, OA) => {
     }
     const $D = "9.2.2",
         Ll = -1,
-        bo = "en-US",
+        bo = "ru",
         lE = "",
         uE = e => `${e.charAt(0).toLocaleUpperCase()}${e.substr(1)}`;
 
