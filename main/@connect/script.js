@@ -7809,7 +7809,7 @@ var Jre = rL((Zre, OA) => {
         }
         list() {
             if (!ke.isSupported) return [];
-            const t = new Intl.DateTimeFormat(Vs.locale, {
+            const t = new Intl.DateTimeFormat("ru", {
                     year: "numeric",
                     month: "short",
                     day: "numeric"
