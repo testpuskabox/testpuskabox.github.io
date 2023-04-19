@@ -11204,7 +11204,7 @@ var Jre = rL((Zre, OA) => {
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
-        }/* {
+        },/* {
             name: "Lie Swatter",
             tag: "lieswatter",
             wrapper: "marionette",
@@ -11522,15 +11522,15 @@ var Jre = rL((Zre, OA) => {
             directory: "pp9/range-game",
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
-        }, {
-            name: "Quixort",
+        }, */{
+            name: "Скоросорт",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/lineup",
             features: ["kicking", "previews"],
             categoryId: "LineupGame"
-        }*/],
+        }],
         Io = e => U3.find(t => t.tag === e || t.categoryId === e);
 
     function F3(...e) {
