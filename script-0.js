@@ -12950,7 +12950,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/@connect",
                         version: "5.87.0"
-                    },
+                    },/*
                     "the-wheel": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -12962,7 +12962,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp8/drawful-animate",
                         version: "5.28.0"
-                    },
+                    },*/
                     "@moderator": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13268,25 +13268,25 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp9/htmf",
                         version: "5.93.0"
-                    },
+                    },*/
                     lineup: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/lineup",
                         version: "5.83.0"
-                    },
+                    }/*
                     "range-game": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/range-game",
                         version: "5.88.0"
-                    },*/
+                    },
                     prototype: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/internal/prototype",
                         version: "5.91.0"
-                    }
+                    }*/
                 }
             }
         },
