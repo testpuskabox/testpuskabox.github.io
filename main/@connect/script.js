@@ -26308,7 +26308,7 @@ de tu lista de partidas anteriores.`,
                     settings: {
                         transition: 500,
                         wrapAround: !0,
-                        itemsToShow: 3,
+                        itemsToShow: 0.1,
                         autoplay: 5e3
                     }
                 }
