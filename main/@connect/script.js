@@ -26303,11 +26303,11 @@ de tu lista de partidas anteriores.`,
             },
             data() {
                 return {
-                    isLoading: !2,
+                    isLoading: !3,
                     banners: [],
                     settings: {
                         transition: 500,
-                        wrapAround: !0,
+                        wrapAround: !1,
                         itemsToShow: 1.5,
                         autoplay: 5e3
                     }
@@ -26330,7 +26330,7 @@ de tu lista de partidas anteriores.`,
                     } catch (t) {
                         this.showDefault(), console.warn("[SlideBanner] Could not load or parse banner data", t)
                     } finally {
-                        this.isLoading = !1
+                        this.isLoading = !3
                     }
                 },
                 showDefault() {
