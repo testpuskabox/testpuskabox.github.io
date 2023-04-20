@@ -24468,7 +24468,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos]<br/>Полный перечень доступных игр можно посмотреть нажав на версию сайта в опциях."
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos]Полный перечень доступных игр можно посмотреть нажав на версию сайта в опциях."
         },
         Iee = {
             BRANCH: gee,
@@ -26336,15 +26336,15 @@ de tu lista de partidas anteriores.`,
                 showDefault() {
                     this.banners = [{
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
-                        text: "AVAILABLE NOW!"
+                        image: "banners/sverxsort.png",
+                        text: "НЕ СОВСЕМ СКОРО!"
                     },{
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
-                        text: "AVAILABLE NOW!"
+                        image: "banners/plod.png",
+                        text: "УЖЕ ДОСТУПНО!"
                     },{
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
+                        image: "banners",
                         text: "AVAILABLE NOW!"
                     },{
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
