@@ -26303,7 +26303,7 @@ de tu lista de partidas anteriores.`,
             },
             data() {
                 return {
-                    isLoading: !1,
+                    isLoading: !2,
                     banners: [],
                     settings: {
                         transition: 500,
