@@ -26303,7 +26303,7 @@ de tu lista de partidas anteriores.`,
             },
             data() {
                 return {
-                    isLoading: !3,
+                    isLoading: !0,
                     banners: [],
                     settings: {
                         transition: 500,
@@ -26321,7 +26321,7 @@ de tu lista de partidas anteriores.`,
                     var e;
                     try {
                         const n = await (await fetch("https://jackbox.pro/main/@connect/nanners/nanners.json")).json(),
-                            r = (e = n == null ? void 2 : n.bannerAds) != null ? e : [];
+                            r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
                             image: s.src,
@@ -26330,7 +26330,7 @@ de tu lista de partidas anteriores.`,
                     } catch (t) {
                         this.showDefault(), console.warn("[SlideBanner] Could not load or parse banner data", t)
                     } finally {
-                        this.isLoading = !3
+                        this.isLoading = !0
                     }
                 },
                 showDefault() {
@@ -26824,7 +26824,7 @@ de tu lista de partidas anteriores.`,
                 }
             },
             bb: {
-                tos: (e, t) => `<a class="tosLink" href="https://jackboxgames.com/terms-of-service/" target="_blank">${t}</a>`,
+                tos: (e, t) => `<a class="tosLink" href="https://box.pusko.site/terms-of-service/" target="_blank">${t}</a>`,
                 toses: (e, t) => `<a class="tosLink" href="https://jackbox.pro/manifest" target="_blank">${t}</a>`
             },
             data() {
