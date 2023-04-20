@@ -125,10 +125,12 @@
             "href": "https://pusko.site/projects"
         },
         {"start": "2021-08-13",
-        "text": "СОВСЕМ не СКОРО!",
-        "src": "https://jackbox.pro/main/@connect/nanners/sverxsort.png",
-        "href": ""
-    }
+        "text": "не СОВСЕМ СКОРО!",
+        "src": "https://jackbox.pro/main/@connect/nanners/sverxsort.png"
+    },{"start": "2021-08-13",
+    "text": "В ПРОЦЕССЕ...",
+    "src": "https://jackbox.pro/main/@connect/nanners/smex.png"
+}
     ],
 
     "postGameBanners": {
