@@ -24468,7 +24468,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos]<br>Полный перечень доступных игр можно посмотреть нажав на версию сайта в опциях."
         },
         Iee = {
             BRANCH: gee,
@@ -26320,7 +26320,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://host.pusko.site/pro/banners.json")).json(),
+                        const n = await (await fetch("https://host.pusko.site/pro/bannerss.json")).json(),
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
