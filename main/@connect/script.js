@@ -24468,7 +24468,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos] Полный перечень доступных игр можно посмотреть [toses]здесь[/toses]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Англ.)[/tos] Полный перечень доступных игр можно посмотреть [toses]Здесь[/toses]"
         },
         Iee = {
             BRANCH: gee,
@@ -26825,7 +26825,7 @@ de tu lista de partidas anteriores.`,
             },
             bb: {
                 tos: (e, t) => `<a class="tosLink" href="https://jackboxgames.com/terms-of-service/" target="_blank">${t}</a>`,
-                toses: (e, t) => `<a class="tosLink" href="https://pusko,site/project/" target="_blank">${t}</a>`
+                toses: (e, t) => `<a class="tosLink" href="https://jackbox.pro/manifest" target="_blank">${t}</a>`
             },
             data() {
                 return {
