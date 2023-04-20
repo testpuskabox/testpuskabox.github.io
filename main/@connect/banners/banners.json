@@ -123,7 +123,12 @@
             "text": "УЖЕ ДОСТУПНО!",
             "src": "https://jackbox.pro/main/@connect/banners/plod.png",
             "href": "https://pusko.site/projects"
-        }
+        },
+        {"start": "2021-08-13",
+        "text": "СОВСЕМ не СКОРО!",
+        "src": "https://jackbox.pro/main/@connect/banners/sverxsort.png",
+        "href": "https://jackbox.pro"
+    }
     ],
 
     "postGameBanners": {
