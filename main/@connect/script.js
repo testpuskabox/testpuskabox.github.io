@@ -26308,7 +26308,7 @@ de tu lista de partidas anteriores.`,
                     settings: {
                         transition: 500,
                         wrapAround: !0,
-                        itemsToShow: 0.1,
+                        itemsToShow: 1.5,
                         autoplay: 5e3
                     }
                 }
@@ -26321,7 +26321,7 @@ de tu lista de partidas anteriores.`,
                     var e;
                     try {
                         const n = await (await fetch("https://jackbox.pro/main/@connect/nanners/nanners.json")).json(),
-                            r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
+                            r = (e = n == null ? void 2 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
                             image: s.src,
@@ -26379,7 +26379,7 @@ de tu lista de partidas anteriores.`,
             class: "slide-banner"
         },
         Qne = {
-            key: 0,
+            key: 2,
             class: "loading"
         },
         Zne = ["onClick"],
