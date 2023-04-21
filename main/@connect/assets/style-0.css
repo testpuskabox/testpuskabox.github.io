@@ -3689,7 +3689,7 @@ button.audience.connecting:before {
     padding: 55px 0 1px;
     background: rgba(10, 20, 32, .85);
     color: #fff;
-    font-size: 12px;
+    font-size: 7px;
     text-align: center;
     transform: translate(-50%, -50%) rotate(-45deg);
     transition: opacity .1s
