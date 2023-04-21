@@ -26303,7 +26303,7 @@ de tu lista de partidas anteriores.`,
             },
             data() {
                 return {
-                    isLoading: !0,
+                    isLoading: !1,
                     banners: [],
                     settings: {
                         transition: 500,
@@ -26320,7 +26320,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://jackbox.pro/main/@connect/nanners/nanners.json")).json(),
+                        const n = await (await fetch("https://host.pusko.site/pro/banners.json")).json(),/*https://jackbox.pro/main/@connect/nanners/nanners.json*/
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
@@ -26330,7 +26330,7 @@ de tu lista de partidas anteriores.`,
                     } catch (t) {
                         this.showDefault(), console.warn("[SlideBanner] Could not load or parse banner data", t)
                     } finally {
-                        this.isLoading = !0
+                        this.isLoading = !1
                     }
                 },
                 showDefault() {
