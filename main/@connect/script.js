@@ -24397,11 +24397,11 @@ ${t}`
             UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
             UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
             KICKED: "Вы не можете присоединиться, так как вас уже выгонял модератор",
-            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
+            REQUIRES_TWITCH_LOGIN: "Игра запрашивает Twitch",
             ROOM_IS_LOCKED: "Игра закрыта",
             INCORRECT_PASSWORD: "Неправильный пароль",
             GENERIC: "Ошибка при входе в игру. Скорее всего эта игра отсутсвует или выключена на сайте. Попробуй зайти через test.jackbox.pro.",
-            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+            FILTER_NAME: "'У этой игры включён фльтр брани'. Пожалуйста введи другое имя."
         },
         vee = {
             NAME: "ИМЯ",
