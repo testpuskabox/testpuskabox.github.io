@@ -24390,17 +24390,17 @@ ${t}`
             WAITING: "Ожидание комнаты"
         },
         mee = {
-            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-            ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
-            AUDIENCE_IS_FULL: "The audience is full",
+            UNSUPPORTED_BROWSER: "Эта игра не поддерживается на вашем браузере.",
+            ROOM_IS_FULL: "Игра заполнена",
+            ROOM_NOT_FOUND: "Комната не найдена",
+            AUDIENCE_IS_FULL: "Зрители заполнены",
             UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
             UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-            KICKED: "You cannot join because you have been kicked by a moderator",
+            KICKED: "Вы не можете присоединиться, так как вас уже выгонял модератор",
             REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Ошибка при входе в игру. Скорее всего эта игра отсутсвует или выключена на сайте. Попробуй зайти через qa.jackbox.pro.",
+            ROOM_IS_LOCKED: "Игра закрыта",
+            INCORRECT_PASSWORD: "Неправильный пароль",
+            GENERIC: "Ошибка при входе в игру. Скорее всего эта игра отсутсвует или выключена на сайте. Попробуй зайти через test.jackbox.pro.",
             FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
         },
         vee = {
