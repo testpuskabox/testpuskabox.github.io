@@ -24406,13 +24406,13 @@ ${t}`
         vee = {
             NAME: "ИМЯ",
             NAME_PLACEHOLDER: "ВВЕДИТЕ ВАШЕ ИМЯ",
-            PASSWORD_PLACEHOLDER: "ВВЕДИТЕ 5-ТИ БУКВЕННЫЙ ПАРОЛЬ",
+            PASSWORD_PLACEHOLDER: "ВВЕДИТЕ 5 БУКВЕННЫЙ ПАРОЛЬ",
             PASSWORD_REQUIRED_TITLE: "Запрашивается пароль",
             PASSWORD_REQUIRED_BODY: "Пожалуйста введите пароль или зайдите к зрителям",
             PASSWORD_JOIN_AS_PLAYER: "Зайти к игрокам",
             PASSWORD_JOIN_AS_AUDIENCE: "Зайти к зрителям",
             ROOM_CODE: "КОД КОМНАТЫ",
-            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4-ЁХ БУКВЕННЫЙ КОД"
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4 БУКВЕННЫЙ КОД"
         },
         Eee = "Ссылка на главную страницу Jackbox Games",
         _ee = {
