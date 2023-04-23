@@ -13655,7 +13655,7 @@ ${r.message}`,
         a4 = {
             UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
             ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
+            ROOM_NOT_FOUND: "Комната не найдена",
             AUDIENCE_IS_FULL: "The audience is full",
             UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
             UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
@@ -13669,13 +13669,13 @@ ${r.message}`,
         o4 = {
             NAME: "NAME",
             NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "5-ТИ ЗНАЧНЫЙ ПАРОЛЬ",
+            PASSWORD_PLACEHOLDER: "5 ЗНАЧНЫЙ ПАРОЛЬ",
             PASSWORD_REQUIRED_TITLE: "Password required",
             PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
             PASSWORD_JOIN_AS_PLAYER: "Join as Player",
             PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
             ROOM_CODE: "КОД КОМНАТЫ",
-            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4-ЁХ БУКВЕННЫЙ КОД"
+            ROOM_CODE_PLACEHOLDER: "ВВЕДИТЕ 4 БУКВЕННЫЙ КОД"
         },
         c4 = "Link to Jackbox Games Homepage",
         l4 = {
