@@ -13720,7 +13720,7 @@ from your past games list.`,
         h4 = {
             GAME_FULL: "Game is full",
             GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            ROOM_NOT_FOUND: "Комната не найдена"
         },
         p4 = {
             GAME_FULL: "GAME IS FULL",
