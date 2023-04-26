@@ -11388,15 +11388,15 @@ var Jre = rL((Zre, OA) => {
             isPublic: !0,
             directory: "pp6/pushthebutton",
             categoryId: "PushTheButtonGame"
-        }, {
-            name: "Talking Points",
+        },*/ {
+            name: "Запорные точки",
             tag: "jackbox-talks",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp7/jackboxtalks",
             features: ["camera", "moderation"],
             categoryId: "JackboxTalksGame"
-        }, {
+        },/* {
             name: "Quiplash 3",
             tag: "quiplash3",
             wrapper: "marionette",
