@@ -8047,10 +8047,10 @@ const yl = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^йцукенгшщзхъфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮA-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
-        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e.replace(/[^йцукенгшщзхъфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮ\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -17350,8 +17350,8 @@ const zC = `<div id="controller" class="state-controller controller-content">
             SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
             LANGUAGE: "Language",
             LOGIN: "Login",
-            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Отключено",
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Спасибо вам за игру!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
