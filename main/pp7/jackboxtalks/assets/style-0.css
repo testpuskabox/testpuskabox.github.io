@@ -23296,7 +23296,6 @@ button {
 
 .jackbox-talks .Lobby .choices button[data-action=start],
 .jackbox-talks .Lobby .choices button[data-action=cancel] {
-    height: 260px;
     width: 260px;
     text-align: center;
     transform: rotate(-25deg);

@@ -21496,7 +21496,7 @@ const zx = ft.View.extend({
     </div>    
 </div>
 <div class="submitRegion footer">
-    <button class="submit">SUBMIT</button>
+    <button class="submit">АГАСЬ</button>
 </div>`,
     c1 = Tn.extend({
         defaults: {
