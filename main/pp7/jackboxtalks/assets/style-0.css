@@ -24406,7 +24406,19 @@ button {
 .jackbox-talks .Draw.Presenter .btn-group button[type=submit] {
     width: 260px;
     text-align: center;
-    font-size: 47px
+    transform: rotate(-25deg);
+    border-radius: 500px;
+    flex: 0 0 auto;
+    font-size: 37px;
+    letter-spacing: -.04em;
+    line-height: 90%;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    background-repeat: no-repeat;
+    background-position: 50% 3.4em;
+    background-size: 75px;
+    word-spacing: 100vw;
+    margin-top: 10px;
 }
 
 .jackbox-talks .Awards .prompt {
