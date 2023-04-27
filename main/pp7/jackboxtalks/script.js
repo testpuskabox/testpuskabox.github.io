@@ -21689,7 +21689,7 @@ const d1 = Bx.extend({
             className: e.action === "toCamera" ? "toCamera" : e.className
         }))), t.state === "MakeSingleChoice" && (t.classes.indexOf("ChooseSlideTypeToAdd") !== -1 && (t.block = !1), t.choices.find(e => e.className === "endTalk") && (t.prompt = {
             text: ""
-        })), t.state === "EnterSingleText" && (t.prompt.html && (t.prompt.html = t.prompt.html.replace(/([^_])_([^_])/gi, '$1<span style="letter-spacing: -0.05em;">________</span>$2')), t.entryId === "NameAward" && t.classes.push("NameAward")), t.state === "Camera" && (t.playerInfo.hidden = !0, (!t.strings || !t.strings.confirmButton) && (t.strings = {
+        })), t.state === "EnterSingleText" && (t.prompt.html && (t.prompt.html = t.prompt.html.replace(/([^_])_([^_])/gi, '$1<span style="letter-spacing: -0.05em;">НАПИШИ СВОЮ ТЕМУ!</span>$2')), t.entryId === "NameAward" && t.classes.push("NameAward")), t.state === "Camera" && (t.playerInfo.hidden = !0, (!t.strings || !t.strings.confirmButton) && (t.strings = {
             exitButton: "",
             switchButton: "",
             snapshotButton: "",
