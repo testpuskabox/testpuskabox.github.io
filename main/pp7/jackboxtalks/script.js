@@ -16902,7 +16902,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
                 vip_episodes_load: "Load an episode by id:",
                 vip_episodes_select: "Or select an episode:",
                 vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
+                vip_episodes_submit: "АГАСЬ",
                 vip_episodes_view_author: "View Author",
                 button_start: "Everybody's In",
                 button_cancel: "Cancel",
@@ -17205,7 +17205,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
                         preventAutosize: !0,
                         placeholder: "???-????",
                         inlineSubmit: !0,
-                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SUBMIT",
+                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "АГАСЬ",
                         className: "lobbyUgcInput"
                     }), a.collection.add({
                         type: "text",
