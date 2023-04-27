@@ -23575,13 +23575,12 @@ button {
 .jackbox-talks .Slideshow .startTalk button.choice-button,
 .jackbox-talks .Slideshow .endTalk button.choice-button,
 .jackbox-talks .Slideshow .skipTutorial button.choice-button {
-    height: 260px;
     width: 260px;
     text-align: center;
     transform: rotate(-25deg);
     border-radius: 500px;
     flex: 0 0 auto;
-    font-size: 47px;
+    font-size: 37px;
     letter-spacing: -.04em;
     line-height: 90%;
     padding-bottom: 2em;
@@ -23661,7 +23660,8 @@ button {
 .jackbox-talks .Camera .endTalk button.choice-button,
 .jackbox-talks .Draw .endTalk button.choice-button,
 .jackbox-talks .Slideshow .endTalk button.choice-button {
-    background-image: url(f24d01f4.png)
+    background-image: url(f24d01f4.png);
+    background-position-y: 2.3em
 }
 
 .jackbox-talks .Lobby .skipTutorial button.choice-button,
