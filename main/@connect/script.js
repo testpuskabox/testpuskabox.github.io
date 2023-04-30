@@ -11421,14 +11421,14 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation"],
             categoryId: "WorldChampionsGame",
             shopItems: ["cards"]
-        }, {
-            name: "Blather 'Round",
+        },*/ {
+            name: "Сплетни Вокруг",
             tag: "blanky-blank",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp7/blanky-blank",
             categoryId: "BlankyBlankGame"
-        }, {
+        },/* {
             name: "Job Job",
             tag: "apply-yourself",
             wrapper: "vue",
