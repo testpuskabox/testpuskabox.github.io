@@ -25,6 +25,27 @@
     "text": "В ПРОЦЕССЕ...",
     "src": "https://jackbox.pro/main/@connect/nanners/smex.png",
     "href": "https://pusko.site/projects"
+},
+{
+    "start": "2021-08-13",
+    "text": "ПОМОЩЬ ЗДЕСЬ",
+    "src": "https://jackbox.pro/main/@connect/nanners/box.png",
+    "href": "https://box.pusko.site"
+},
+{
+    "start": "2021-08-13",
+    "text": "УЖЕ ДОСТУПНО!",
+    "src": "https://jackbox.pro/main/@connect/nanners/plod.png",
+    "href": "https://pusko.site/projects/plod"
+},
+{"start": "2021-08-13",
+"text": "ПОДРОБНЕЕ О ПРОЕКТАХ",
+"src": "https://jackbox.pro/main/@connect/nanners/site.png",
+"href": "https://pusko.site/projects"
+},{"start": "2021-08-13",
+"text": "В ПРОЦЕССЕ...",
+"src": "https://jackbox.pro/main/@connect/nanners/smex.png",
+"href": "https://pusko.site/projects"
 }
     ]
 }
