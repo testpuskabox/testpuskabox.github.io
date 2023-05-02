@@ -8047,10 +8047,10 @@ const Zh = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[ЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮйцукенгшщзхъёэждлорпавыфячсмитьбюA-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
-        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e.replace(/[^ЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮйцукенгшщзхъёэждлорпавыфячсмитьбю\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -16284,7 +16284,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         <div id="sketchpad"></div>\r
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
-            <div id="submit">\r
+            <div id="подтвердить">\r
                 <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
             </div>\r
             <button id='censorOptions' class='button'>Censor Options</button>\r
@@ -16322,7 +16322,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             debug: !1,
             strings: {
                 drawing_empty: "You must draw something!",
-                submit: "submit",
+                submit: "подтвердить",
                 ERROR_REJECTED_OBJECT: "That's not allowed, enter something else!"
             }
         }
@@ -16525,7 +16525,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         defaults: {
             state: "EnterSingleText",
             actions: [{
-                text: "submit",
+                text: "подтвердить",
                 action: "submit"
             }],
             allowEmpty: !1,
@@ -16616,7 +16616,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }), this.inputComponent = this.inputComponent || new Ia({
                 model: new He.Model({})
             }), this.buttonsCollection = this.buttonsCollection || new He.Collection([{
-                text: "submit"
+                text: "подтвердить"
             }]), this.buttonsComponent = this.buttonsComponent || new tr({
                 block: !0,
                 collection: this.buttonsCollection
@@ -16629,7 +16629,7 @@ const nO = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             })), this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.inputComponent.model.set(this.model.attributes), this.buttonsComponent.options.block = this.model.get("block"), this.buttonsCollection.set(this.model.get("actions") || [{
-                text: "submit",
+                text: "подтвердить",
                 action: "submit"
             }]), this.model.get("entryId") && this.model.get("entryId") !== this.currentEntry && (this.inputComponent.clearInput(), this.currentEntry = this.model.get("entryId")), this.$el.find(".enterSingleTextFieldset").prop("disabled", !1), this.$el.find("textarea").focus(), this.stickit(), this.model.get("autoSubmit") && this.shouldSubmit && this.onChildviewInputSubmit()
         },
@@ -16902,7 +16902,7 @@ const cO = `<div id="controller" class="state-controller controller-content">
                 vip_episodes_load: "Load an episode by id:",
                 vip_episodes_select: "Or select an episode:",
                 vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
+                vip_episodes_submit: "ПОДТВЕРДИТЬ",
                 vip_episodes_view_author: "View Author",
                 button_start: "Все здесь",
                 button_cancel: "Отмена",
@@ -17205,7 +17205,7 @@ const cO = `<div id="controller" class="state-controller controller-content">
                         preventAutosize: !0,
                         placeholder: "???-????",
                         inlineSubmit: !0,
-                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "SUBMIT",
+                        inlineSubmitText: this.model.get("strings").vip_episodes_submit || "ПОДТВЕРДИТЬ",
                         className: "lobbyUgcInput"
                     }), s.collection.add({
                         type: "text",
@@ -17560,7 +17560,7 @@ const cO = `<div id="controller" class="state-controller controller-content">
             this.promptComponent.model.clear({
                 silent: !0
             }).set(this.model.get("prompt")), this.choicesList.options.block = this.model.get("block"), this.choicesList.collection.set(this.model.get("choices")), this.model.get("type") === "multiple" && it.all(this.model.get("choices"), t => !t.disabled) && this.choicesList.collection.push({
-                text: "Submit",
+                text: "Подтвердить",
                 action: "submit",
                 block: !1
             }), this.model.get("isAudience") && ((this.model.get("choiceId") === void 0 || this.model.get("choiceId") !== this.getOption("choiceId")) && (this.selected = [], this.audienceChoice = void 0, this.votesLeft = void 0), this.selected.length > 0 && (this.model.get("type") === "multiple" ? this.choicesList.children.forEach(t => {

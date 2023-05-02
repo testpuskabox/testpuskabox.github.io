@@ -13160,13 +13160,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp6/triviadeath2",
                         version: "5.3.0"
-                    },
+                    },*/
                     "blanky-blank": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp7/blanky-blank",
                         version: "5.3.0"
-                    },
+                    },/*
                     everyday: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
