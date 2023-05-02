@@ -5599,7 +5599,7 @@ function Wy() {
                 }, {})
             },
             Ct = function(l, _) {
-                return l.replace(/@ui\.[a-zA-ZйцукенгшщзхъфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮ-_$0-9]*/g, function(L) {
+                return l.replace(/@ui\.[a-zA-Z-_$0-9]*/g, function(L) {
                     return _[L.slice(4)]
                 })
             },
