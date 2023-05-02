@@ -17242,9 +17242,9 @@ const cO = `<div id="controller" class="state-controller controller-content">
             })
         },
         activateContentIdFromInput(t) {
-            (t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
+            (t.getSanitizedValue().replace(/[^йцукенгшщзхъфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮA-Za-z]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
                 activateContentId: !0,
-                contentId: t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase()
+                contentId: t.getSanitizedValue().replace(/[^йцукенгшщзхъфывапролджэёячсмитьбюЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЁЯЧСМИТЬБЮA-Za-z]/gi, "").toUpperCase()
             }), At.close())
         },
         onChildviewChildviewCharacterClick(t) {
