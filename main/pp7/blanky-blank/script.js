@@ -8021,7 +8021,7 @@ class au {
         return O1(e[0], ...e)
     }
 }
-lt(au, "locale"), lt(au, "supported", ["en", "fr", "it", "de", "es", "es-XL"]);
+lt(au, "locale"), lt(au, "supported", ["en", "fr", "it", "de", "es", "es-XL", "ru"]);
 const Zh = class {
     static get serverUrl() {
         var n;
