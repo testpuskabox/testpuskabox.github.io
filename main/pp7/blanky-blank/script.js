@@ -7018,7 +7018,7 @@ class Uy {
     static pageView(e) {
         gtag("event", "page_view", {
             page_title: e,
-            page_location: `https://jackbox.tv/${e}`
+            page_location: `https://jackbox.pro/${e}`
         })
     }
     static gameStarted(e, n) {
@@ -8047,7 +8047,7 @@ const Zh = class {
         return this.htmlEscape(n).trim()
     }
     static sanitizeName(e) {
-        return e.replace(/[ЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮйцукенгшщзхъёэждлорпавыфячсмитьбюA-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+        return e.replace(/[^ЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮйцукенгшщзхъёэждлорпавыфячсмитьбюA-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
         return e.replace(/[^ЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮйцукенгшщзхъёэждлорпавыфячсмитьбю\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
@@ -8208,7 +8208,7 @@ class sn {
         })
     }
 }
-lt(sn, "defaultNamespace", "tv");
+lt(sn, "defaultNamespace", "pro");
 class si {
     constructor() {
         lt(this, "artifacts");
@@ -12574,7 +12574,7 @@ class yr {
                 TV_ADROLL_PIXEL_ID: "WN335VM7RVAMPDZAOWMIHP",
                 TV_CDN_IMAGES_URL: "https://s3.amazonaws.com/static.jackboxgames.com/game-images",
                 TV_DEBUG: "false",
-                TV_DOMAINS: "https://dev.jackbox.tv,https://qa.jackbox.tv,https://jackbox.tv,https://tinyshirts.jackboxgames.com",
+                TV_DOMAINS: "https://dev.jackbox.tv,https://qa.jackbox.tv,https://jackbox.pro,https://tinyshirts.jackboxgames.com",
                 TV_ECAST: "ecast.jackboxgames.com",
                 TV_GA_STREAM_ID: "3795853220",
                 TV_GA_MEASUREMENT_ID: "G-V1QJVQMYF1",
