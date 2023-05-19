@@ -10663,8 +10663,8 @@ ${r.message}`,
             BUTTON_NEW_PLAYERS: "New Players"
         },
         xj = {
-            AND: "AND",
-            OR: "OR"
+            AND: "И",
+            OR: "ИЛИ"
         },
         Uj = {
             BUTTON_SKIP: "Skip",
@@ -10672,7 +10672,7 @@ ${r.message}`,
             BUTTON_DONE: "Let\u2019s Go!"
         },
         Fj = {
-            NAME: "AUDIENCE"
+            NAME: "ЗРИТЕЛИ"
         },
         Gj = {
             EPISODE_REPORT: "Report Episode",
