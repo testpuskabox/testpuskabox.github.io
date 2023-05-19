@@ -11252,15 +11252,15 @@ var Jre = rL((Zre, OA) => {
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/fakinit"
-        }, {
-            name: "Tee K.O.",
+        },*/ {
+            name: "Футбол К.О.",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/awshirt",
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
-        }, {
+        },/* {
             name: "Quiplash 2",
             tag: "quiplash2",
             wrapper: "marionette",
@@ -11474,8 +11474,8 @@ var Jre = rL((Zre, OA) => {
             directory: "tjsp/quiplash3",
             features: ["moderation"],
             categoryId: "quiplash3Game"
-        }, {
-            name: "Tee K.O.",
+        },*/ {
+            name: "Футбол K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -11483,7 +11483,7 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation"],
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
-        }, {
+        },/* {
             name: "Trivia Murder Party 2",
             tag: "triviadeath2-tjsp",
             wrapper: "vue",
@@ -25144,7 +25144,7 @@ de tu lista de partidas anteriores.`,
                             submitKey: "ACTION.PLAY"
                         }
                     }
-                    const e = (n = (t = Io(this.room.appTag)) == null ? void 0 : t.name) != null ? n : "???";
+                    const e = (n = (t = Io(this.room.appTag)) == null ? void 0 : t.name) != null ? n : "Ошибка";
                     return this.isReconnectable ? {
                         canSubmit: this.canConnect,
                         statusKey: e,
