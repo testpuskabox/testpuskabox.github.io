@@ -13214,13 +13214,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/standalone/guesspionage-crowdplay",
                         version: "5.0.0"
-                    },*/
+                    },
                     "quiplash2-international": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/standalone/quiplash2-international",
                         version: "5.3.0"
-                    }
+                    },
                     "survey-bomb": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13274,7 +13274,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp9/lineup",
                         version: "5.83.0"
-                    }
+                    },
                     "range-game": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
