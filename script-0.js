@@ -12950,7 +12950,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/@connect",
                         version: "5.87.0"
-                    },/*
+                    },
                     "the-wheel": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -12962,7 +12962,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp8/drawful-animate",
                         version: "5.28.0"
-                    },*/
+                    },
                     "@moderator": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -12974,7 +12974,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/tjsp/awshirt",
                         version: "5.20.0"
-                    },/*
+                    },
                     "ecast-test-client": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -12998,13 +12998,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp1/lieswatter",
                         version: "5.0.0"
-                    },*/
+                    },
                     wordspud: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp1/wordspud",
                         version: "5.0.0"
-                    },/*
+                    },
                     ydkj2015: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13160,25 +13160,25 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp6/triviadeath2",
                         version: "5.3.0"
-                    },*/
+                    },
                     "blanky-blank": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp7/blanky-blank",
                         version: "5.3.0"
-                    },/*
+                    },
                     everyday: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp7/everyday",
                         version: "5.3.0"
-                    },*/
+                    },
                     "jackbox-talks": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp7/jackboxtalks",
                         version: "5.25.0"
-                    },/*
+                    },
                     quiplash3: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13220,7 +13220,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/standalone/quiplash2-international",
                         version: "5.3.0"
-                    }/*
+                    }
                     "survey-bomb": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13262,13 +13262,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp9/fourbage",
                         version: "5.92.0"
-                    },*/
+                    },
                     htmf: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/htmf",
                         version: "5.93.0"
-                    },/*
+                    },
                     lineup: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
@@ -13286,7 +13286,7 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/internal/prototype",
                         version: "5.91.0"
-                    }*/
+                    }
                 }
             }
         },
