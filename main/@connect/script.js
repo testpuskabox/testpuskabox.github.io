@@ -11498,15 +11498,15 @@ var Jre = rL((Zre, OA) => {
             directory: "pp9/fourbage",
             features: ["moderation", "kicking"],
             categoryId: "Fibbage4Game"
-        }, {
-            name: "Roomerang",
+        },*/ {
+            name: "Квартиранг",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/htmf",
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
-        }, {
+        },/* {
             name: "Junktopia",
             tag: "antique-freak",
             wrapper: "vue",
