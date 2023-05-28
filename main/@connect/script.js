@@ -11222,13 +11222,13 @@ var Jre = rL((Zre, OA) => {
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/fibbage2"
-        }, {
-            name: "Earwax",
+        },*/ {
+            name: "Привет, Миркой.",
             tag: "earwax",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/earwax"
-        }, {
+        },/* {
             name: "Bidiots",
             tag: "auction",
             wrapper: "marionette",
@@ -25144,7 +25144,7 @@ de tu lista de partidas anteriores.`,
                             submitKey: "ACTION.PLAY"
                         }
                     }
-                    const e = (n = (t = Io(this.room.appTag)) == null ? void 0 : t.name) != null ? n : "Ошибка";
+                    const e = (n = (t = Io(this.room.appTag)) == null ? void 0 : t.name) != null ? n : "Игра отключена";
                     return this.isReconnectable ? {
                         canSubmit: this.canConnect,
                         statusKey: e,
