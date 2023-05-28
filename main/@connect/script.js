@@ -11140,119 +11140,124 @@ var Jre = rL((Zre, OA) => {
         TextEntity: R3,
         TextRing: M3
     };
-    const U3 = [{
-            name: "Prototype",
-            tag: "prototype",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "internal/prototype"
-        }, {
-            name: "EcastTestClient",
-            tag: "ecast-test-client",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "internal/ecast-test-client"
-        }, {
-            name: "Смехлыст 2 ИнтерЛЫСТиональный",
-            tag: "quiplash2-international",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "standalone/quiplash2-international",
-            categoryId: "quiplash2-internationalGame"
-        }, /*{
-            name: "Guesspionage Crowdplay",
-            tag: "guesspionage-crowdplay",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "standalone/guesspionage-crowdplay"
-        }, {
-            name: "Drawful 2",
-            tag: "drawful2",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "standalone/drawful2",
-            categoryId: "DrawfulGame",
-            shopItems: ["shirts"]
-        }, {
-            name: "Drawful 2",
-            tag: "drawful2international",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "standalone/drawful2-international",
-            features: ["moderation"]
-        }, {
-            name: "Acquisitions, Inc.",
-            tag: "acquisitions-inc",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "standalone/acquisitions-inc"
-        }, {
-            name: "You Don't Know Jack 2015",
-            tag: "ydkj2015",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp1/ydkj2015"
-        }, {
-            name: "Drawful",
-            tag: "drawful",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp1/drawful"
-        }, */{
+    const U3 = [
+        //{     name: "Prototype",
+        //     tag: "prototype",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "internal/prototype"
+        // }, {
+        //     name: "EcastTestClient",
+        //     tag: "ecast-test-client",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "internal/ecast-test-client"
+        // }, {
+        //     name: "Смехлыст 2 ИнтерЛЫСТиональный",
+        //     tag: "quiplash2-international",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "standalone/quiplash2-international",
+        //     categoryId: "quiplash2-internationalGame"
+        // }, {
+        //     name: "Guesspionage Crowdplay",
+        //     tag: "guesspionage-crowdplay",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "standalone/guesspionage-crowdplay"
+        // }, {
+        //     name: "Drawful 2",
+        //     tag: "drawful2",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "standalone/drawful2",
+        //     categoryId: "DrawfulGame",
+        //     shopItems: ["shirts"]
+        // }, {
+        //     name: "Drawful 2",
+        //     tag: "drawful2international",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "standalone/drawful2-international",
+        //     features: ["moderation"]
+        // }, {
+        //     name: "Acquisitions, Inc.",
+        //     tag: "acquisitions-inc",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "standalone/acquisitions-inc"
+        // }, {
+        //     name: "You Don't Know Jack 2015",
+        //     tag: "ydkj2015",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp1/ydkj2015"
+        // }, {
+        //     name: "Drawful",
+        //     tag: "drawful",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp1/drawful"
+        // },
+         {
             name: "Плодослов",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
-        },/* {
-            name: "Lie Swatter",
-            tag: "lieswatter",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp1/lieswatter"
-        }, {
-            name: "Fibbage",
-            tag: "fibbage",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp1/fibbage"
-        }, {
-            name: "Fibbage 2",
-            tag: "fibbage2",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp2/fibbage2"
-        },*/ {
+        },
+        //  {
+        //     name: "Lie Swatter",
+        //     tag: "lieswatter",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp1/lieswatter"
+        // }, {
+        //     name: "Fibbage",
+        //     tag: "fibbage",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp1/fibbage"
+        // }, {
+        //     name: "Fibbage 2",
+        //     tag: "fibbage2",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp2/fibbage2"
+        // }, 
+        {
             name: "Привет, Миркой.",
             tag: "earwax",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/earwax"
-        },/* {
-            name: "Bidiots",
-            tag: "auction",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp2/auction"
-        }, {
-            name: "Bomb Corp",
-            tag: "bombintern",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp2/bombintern"
-        }, {
-            name: "Quiplash",
-            tag: "quiplash",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp2/quiplash"
-        }, {
-            name: "Fakin' It",
-            tag: "fakinit",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp3/fakinit"
-        },*/ {
+        },
+        //  {
+        //     name: "Bidiots",
+        //     tag: "auction",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp2/auction"
+        // }, {
+        //     name: "Bomb Corp",
+        //     tag: "bombintern",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp2/bombintern"
+        // }, {
+        //     name: "Quiplash",
+        //     tag: "quiplash",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp2/quiplash"
+        // }, {
+        //     name: "Fakin' It",
+        //     tag: "fakinit",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp3/fakinit"
+        // }, 
+        {
             name: "Футбол К.О.",
             tag: "awshirt",
             wrapper: "marionette",
@@ -11260,135 +11265,137 @@ var Jre = rL((Zre, OA) => {
             directory: "pp3/awshirt",
             categoryId: "TeeKOGame",
             shopItems: ["shirts"]
-        },/* {
-            name: "Quiplash 2",
-            tag: "quiplash2",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp3/quiplash2",
-            categoryId: "Quiplash2Game"
-        }, {
-            name: "Trivia Murder Party",
-            tag: "triviadeath",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp3/triviadeath",
-            categoryId: "TriviaDeathResults"
-        }, {
-            name: "Guesspionage",
-            tag: "pollposition",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp3/pollposition"
-        }, {
-            name: "Fibbage 3",
-            tag: "fibbage3",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp4/fibbage3"
-        }, {
-            name: "Survive the Internet",
-            tag: "survivetheinternet",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp4/survivetheinternet",
-            categoryId: "STIGame"
-        }, {
-            name: "Monster Seeking Monster",
-            tag: "monstermingle",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp4/monstermingle",
-            categoryId: "MonsterMingleGame"
-        }, {
-            name: "Bracketeering",
-            tag: "bracketeering",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp4/bracketeering",
-            categoryId: "BRKGame"
-        }, {
-            name: "Civic Doodle",
-            tag: "overdrawn",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp4/overdrawn",
-            categoryId: "OverdrawnGame",
-            shopItems: ["shirts"]
-        }, {
-            name: "You Don't Know Jack: Full Stream",
-            tag: "ydkj2018",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp5/ydkj2018",
-            categoryId: "YDKJ2018Game"
-        }, {
-            name: "Split the Room",
-            tag: "splittheroom",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp5/splittheroom",
-            categoryId: "SplitTheRoomGame"
-        }, {
-            name: "Mad Verse City",
-            tag: "rapbattle",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp5/rapbattle",
-            categoryId: "RapBattleGame"
-        }, {
-            name: "Zeeple Dome",
-            tag: "slingshoot",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp5/slingshoot",
-            categoryId: "SlingShootGame"
-        }, {
-            name: "Patently Stupid",
-            tag: "patentlystupid",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp5/patentlystupid",
-            categoryId: "PatentlyStupidGame",
-            shopItems: ["mugs"]
-        }, {
-            name: "Trivia Murder Party 2",
-            tag: "triviadeath2",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp6/triviadeath2",
-            categoryId: "TriviaDeath2Game"
-        }, {
-            name: "Role Models",
-            tag: "rolemodels",
-            wrapper: "marionette",
-            isPublic: !0,
-            features: ["camera"],
-            directory: "pp6/rolemodels",
-            categoryId: "RoleModelsGame",
-            shopItems: ["shirts"]
-        }, {
-            name: "Joke Boat",
-            tag: "jokeboat",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp6/jokeboat",
-            categoryId: "JokeboatGame"
-        }, {
-            name: "Dictionarium",
-            tag: "ridictionary",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp6/ridictionary",
-            categoryId: "RidictionaryGame"
-        }, {
-            name: "Push the Button",
-            tag: "pushthebutton",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp6/pushthebutton",
-            categoryId: "PushTheButtonGame"
-        },*/ {
+        },
+        // {
+        //     name: "Quiplash 2",
+        //     tag: "quiplash2",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp3/quiplash2",
+        //     categoryId: "Quiplash2Game"
+        // }, {
+        //     name: "Trivia Murder Party",
+        //     tag: "triviadeath",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp3/triviadeath",
+        //     categoryId: "TriviaDeathResults"
+        // }, {
+        //     name: "Guesspionage",
+        //     tag: "pollposition",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp3/pollposition"
+        // }, {
+        //     name: "Fibbage 3",
+        //     tag: "fibbage3",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp4/fibbage3"
+        // }, {
+        //     name: "Survive the Internet",
+        //     tag: "survivetheinternet",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp4/survivetheinternet",
+        //     categoryId: "STIGame"
+        // }, {
+        //     name: "Monster Seeking Monster",
+        //     tag: "monstermingle",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp4/monstermingle",
+        //     categoryId: "MonsterMingleGame"
+        // }, {
+        //     name: "Bracketeering",
+        //     tag: "bracketeering",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp4/bracketeering",
+        //     categoryId: "BRKGame"
+        // }, {
+        //     name: "Civic Doodle",
+        //     tag: "overdrawn",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp4/overdrawn",
+        //     categoryId: "OverdrawnGame",
+        //     shopItems: ["shirts"]
+        // }, {
+        //     name: "You Don't Know Jack: Full Stream",
+        //     tag: "ydkj2018",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp5/ydkj2018",
+        //     categoryId: "YDKJ2018Game"
+        // }, {
+        //     name: "Split the Room",
+        //     tag: "splittheroom",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp5/splittheroom",
+        //     categoryId: "SplitTheRoomGame"
+        // }, {
+        //     name: "Mad Verse City",
+        //     tag: "rapbattle",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp5/rapbattle",
+        //     categoryId: "RapBattleGame"
+        // }, {
+        //     name: "Zeeple Dome",
+        //     tag: "slingshoot",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp5/slingshoot",
+        //     categoryId: "SlingShootGame"
+        // }, {
+        //     name: "Patently Stupid",
+        //     tag: "patentlystupid",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp5/patentlystupid",
+        //     categoryId: "PatentlyStupidGame",
+        //     shopItems: ["mugs"]
+        // }, {
+        //     name: "Trivia Murder Party 2",
+        //     tag: "triviadeath2",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp6/triviadeath2",
+        //     categoryId: "TriviaDeath2Game"
+        // }, {
+        //     name: "Role Models",
+        //     tag: "rolemodels",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     features: ["camera"],
+        //     directory: "pp6/rolemodels",
+        //     categoryId: "RoleModelsGame",
+        //     shopItems: ["shirts"]
+        // }, {
+        //     name: "Joke Boat",
+        //     tag: "jokeboat",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp6/jokeboat",
+        //     categoryId: "JokeboatGame"
+        // }, {
+        //     name: "Dictionarium",
+        //     tag: "ridictionary",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp6/ridictionary",
+        //     categoryId: "RidictionaryGame"
+        // }, {
+        //     name: "Push the Button",
+        //     tag: "pushthebutton",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp6/pushthebutton",
+        //     categoryId: "PushTheButtonGame"
+        // },
+         {
             name: "Запорные точки",
             tag: "jackbox-talks",
             wrapper: "marionette",
@@ -11396,85 +11403,89 @@ var Jre = rL((Zre, OA) => {
             directory: "pp7/jackboxtalks",
             features: ["camera", "moderation"],
             categoryId: "JackboxTalksGame"
-        },/* {
-            name: "Quiplash 3",
-            tag: "quiplash3",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp7/quiplash3",
-            features: ["moderation"],
-            categoryId: "quiplash3Game"
-        }, {
-            name: "The Devils and the Details",
-            tag: "everyday",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp7/everyday",
-            categoryId: "EverydayGame",
-            shopItems: ["mugs"]
-        }, {
-            name: "Champ'd Up",
-            tag: "worldchamps",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp7/worldchampions",
-            features: ["moderation"],
-            categoryId: "WorldChampionsGame",
-            shopItems: ["cards"]
-        },*/ {
-            name: "Сплетни Вокруг",
-            tag: "blanky-blank",
-            wrapper: "marionette",
-            isPublic: !0,
-            directory: "pp7/blanky-blank",
-            categoryId: "BlankyBlankGame"
-        },/* {
-            name: "Job Job",
-            tag: "apply-yourself",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp8/apply-yourself",
-            categoryId: "JobGameGame",
-            features: ["moderation", "previews"]
-        }, {
-            name: "Drawful Animate",
-            tag: "drawful-animate",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp8/drawful-animate",
-            categoryId: "DrawfulAnimateGame",
-            features: ["moderation"]
-        }, {
-            name: "The Wheel of Enormous Proportions",
-            tag: "the-wheel",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp8/the-wheel",
-            categoryId: "TheWheelGame"
-        }, {
-            name: "The Poll Mine",
-            tag: "survey-bomb",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp8/survey-bomb",
-            categoryId: "SurveyBombGame"
-        }, {
-            name: "Weapons Drawn",
-            tag: "murder-detectives",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp8/murder-detectives",
-            categoryId: "MurderDetectivesGame",
-            features: ["moderation"]
-        }, {
-            name: "Quiplash 3",
-            tag: "quiplash3-tjsp",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "tjsp/quiplash3",
-            features: ["moderation"],
-            categoryId: "quiplash3Game"
-        },*/ {
+        },
+        //  {
+        //     name: "Quiplash 3",
+        //     tag: "quiplash3",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp7/quiplash3",
+        //     features: ["moderation"],
+        //     categoryId: "quiplash3Game"
+        // }, {
+        //     name: "The Devils and the Details",
+        //     tag: "everyday",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp7/everyday",
+        //     categoryId: "EverydayGame",
+        //     shopItems: ["mugs"]
+        // }, {
+        //     name: "Champ'd Up",
+        //     tag: "worldchamps",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp7/worldchampions",
+        //     features: ["moderation"],
+        //     categoryId: "WorldChampionsGame",
+        //     shopItems: ["cards"]
+        // }, {
+        //     name: "Сплетни Вокруг",
+        //     tag: "blanky-blank",
+        //     wrapper: "marionette",
+        //     isPublic: !0,
+        //     directory: "pp7/blanky-blank",
+        //     categoryId: "BlankyBlankGame"
+        // }, {
+        //     name: "Job Job",
+        //     tag: "apply-yourself",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp8/apply-yourself",
+        //     categoryId: "JobGameGame",
+        //     features: ["moderation", "previews"]
+        // }, {
+        //     name: "Drawful Animate",
+        //     tag: "drawful-animate",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp8/drawful-animate",
+        //     categoryId: "DrawfulAnimateGame",
+        //     features: ["moderation"]
+        // }, {
+        //     name: "The Wheel of Enormous Proportions",
+        //     tag: "the-wheel",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp8/the-wheel",
+        //     categoryId: "TheWheelGame"
+        // }, {
+        //     name: "The Poll Mine",
+        //     tag: "survey-bomb",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp8/survey-bomb",
+        //     categoryId: "SurveyBombGame"
+        // },
+        //  {
+        //     name: "Weapons Drawn",
+        //     tag: "murder-detectives",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp8/murder-detectives",
+        //     categoryId: "MurderDetectivesGame",
+        //     features: ["moderation"]
+        // },
+        //  {
+        //     name: "Quiplash 3",
+        //     tag: "quiplash3-tjsp",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "tjsp/quiplash3",
+        //     features: ["moderation"],
+        //     categoryId: "quiplash3Game"
+        // },
+         {
             name: "Футбол K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
@@ -11483,22 +11494,24 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation"],
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
-        },/* {
-            name: "Trivia Murder Party 2",
-            tag: "triviadeath2-tjsp",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "tjsp/triviadeath2",
-            categoryId: "TriviaMurderParty2Game"
-        }, {
-            name: "Fibbage 4",
-            tag: "fourbage",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp9/fourbage",
-            features: ["moderation", "kicking"],
-            categoryId: "Fibbage4Game"
-        },*/ {
+        },
+        //  {
+        //     name: "Trivia Murder Party 2",
+        //     tag: "triviadeath2-tjsp",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "tjsp/triviadeath2",
+        //     categoryId: "TriviaMurderParty2Game"
+        // }, {
+        //     name: "Fibbage 4",
+        //     tag: "fourbage",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp9/fourbage",
+        //     features: ["moderation", "kicking"],
+        //     categoryId: "Fibbage4Game"
+        // }, 
+        {
             name: "Квартиранг",
             tag: "htmf",
             wrapper: "vue",
@@ -11506,23 +11519,25 @@ var Jre = rL((Zre, OA) => {
             directory: "pp9/htmf",
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
-        },/* {
-            name: "Junktopia",
-            tag: "antique-freak",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp9/antique-freak",
-            features: ["moderation", "kicking"],
-            categoryId: "AntiqueGameGame"
-        }, {
-            name: "Nonsensory",
-            tag: "range-game",
-            wrapper: "vue",
-            isPublic: !0,
-            directory: "pp9/range-game",
-            features: ["moderation", "kicking"],
-            categoryId: "RangeGameGame"
-        }, */{
+        }, 
+        // {
+        //     name: "Junktopia",
+        //     tag: "antique-freak",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp9/antique-freak",
+        //     features: ["moderation", "kicking"],
+        //     categoryId: "AntiqueGameGame"
+        // }, {
+        //     name: "Nonsensory",
+        //     tag: "range-game",
+        //     wrapper: "vue",
+        //     isPublic: !0,
+        //     directory: "pp9/range-game",
+        //     features: ["moderation", "kicking"],
+        //     categoryId: "RangeGameGame"
+        // }, 
+        {
             name: "Скоросорт",
             tag: "lineup",
             wrapper: "vue",
