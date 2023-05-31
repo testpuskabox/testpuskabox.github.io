@@ -7077,10 +7077,10 @@ var $oe = Dk((Aoe, n1) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u04910-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t = t.replace("\u2026", "..."), t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u04910-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12767,8 +12767,8 @@ ${r.message}`,
             DISCONNECTED: "You have been disconnected.",
             DRAWING_NOTHING: "You have to draw something!",
             PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
+            ROOM_DESTROYED: "Спасибо вам за игру!",
+            ROOM_DISCONNECTED: "Отключено",
             TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
             TEXT_NOTHING: "You can\u2019t enter nothing!",
             TITLE: "Error"
@@ -12781,7 +12781,7 @@ ${r.message}`,
             WAITING_FOR_GAMEPAD: "Ожидаем начала игры",
             GAME_STARTING: "Игра начинается",
             BUTTON_START: "Нажми, чтобы начать",
-            BUTTON_CANCEL: "Надми, чтобы отменить"
+            BUTTON_CANCEL: "Нажми, чтобы отменить"
         },
         Cq = {
             GALLERY_LINK: "Visit the Gallery",
@@ -18109,7 +18109,7 @@ function print() { __p += __j.call(arguments, '') }
             style: Ga(e.stageDimensions)
         }, null, 4), K("button", {
             onClick: t[0] || (t[0] = nr((...u) => e.onSubmitClick && e.onSubmitClick(...u), ["prevent"]))
-        }, it(e.player.submitText || "SUBMIT"), 1)])], 512)])
+        }, it(e.player.submitText || "ОТПРАВИТЬ"), 1)])], 512)])
     }
     const tK = ct(zH, [
             ["render", eK]
@@ -19799,7 +19799,7 @@ function print() { __p += __j.call(arguments, '') }
         }, null, 8, ["disabled", "placeholder", "model-value", "onUpdate:modelValue"])), Ne(K("button", {
             onClick: t[0] || (t[0] = nr((...d) => e.onSubmit && e.onSubmit(...d), ["prevent"]))
         }, null, 512), [
-            [f, e.player.submitText || "SUBMIT"]
+            [f, e.player.submitText || "ОТПРАВИТЬ"]
         ])])])
     }
     const O5 = ct(v5, [
@@ -19896,7 +19896,7 @@ function print() { __p += __j.call(arguments, '') }
         }, null, 40, R5))], 64))), 256)), Ne(K("button", {
             onClick: t[0] || (t[0] = nr((...u) => e.onSubmitClick && e.onSubmitClick(...u), ["prevent"]))
         }, null, 512), [
-            [c, e.player.submitText || "SUBMIT"]
+            [c, e.player.submitText || "ОТПРАВИТЬ"]
         ])])])
     }
     const P5 = ct(w5, [
