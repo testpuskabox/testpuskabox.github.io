@@ -3668,9 +3668,9 @@ body {
 
 .waiting .logo-interactive .logo-fly {
     position: absolute;
-    width: 10%;
-    right: 9%;
-    top: 19%
+    width: 9%;
+    right: 6%;
+    top: 18%
 }
 
 .waiting .logo-interactive .logo-fly.buzz {
@@ -3749,7 +3749,7 @@ body {
 }
 
 @font-face {
-    font-family: Kitsch Controller;
+    font-family: Kit;
     font-weight: 400;
     src: url(kitsch.ttf) format("ttf")
 }
@@ -3794,7 +3794,7 @@ body {
 .antiquegame,
 .antiquegame * {
     touch-action: manipulation;
-    font-family: Kitsch Controller, serif
+    font-family: Kit, serif
 }
 
 .antiquegame .constrain {
