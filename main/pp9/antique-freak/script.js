@@ -27468,25 +27468,25 @@ ${t}`
             })
         },
         Dne = {
-            AUDIENCE_THANKS: "Thanks!"
+            AUDIENCE_THANKS: "Спасибо!"
         },
         Mne = {
-            INFO: "Fact {current}/{max}",
-            PLACEHOLDER: "write here",
-            WRITE_SOMETHING: "You need to write something!",
-            FILTER_ERROR: "Your entry contains prohibited language. Try again!"
+            INFO: "Факт {current} из {max}",
+            PLACEHOLDER: "писать тут",
+            WRITE_SOMETHING: "Тебе надо что-нибудь ввести!",
+            FILTER_ERROR: "Этот текст содержит плохие слова. Попробуй ещё раз!"
         },
         Fne = {
-            AVATAR_SELECT_PROMPT: "Choose your accessory!",
-            PRESENTATION_CHOICE_YES: "Manually Present",
-            PRESENTATION_CHOICE_NO: "Auto-Present",
-            PRESENTATION_MODE: "Presentation Mode:",
-            PRESENTATION_PROMPT: "How does your group want to showcase their writing?",
-            ON: "On",
-            OFF: "Off"
+            AVATAR_SELECT_PROMPT: "Выберите аксесуар!",
+            PRESENTATION_CHOICE_YES: "Рассказывать самостоятельно",
+            PRESENTATION_CHOICE_NO: "Авто-Презентация",
+            PRESENTATION_MODE: "Настройка хода презентаций:",
+            PRESENTATION_PROMPT: "Выберите режим хода презентаций",
+            ON: "Выкл",
+            OFF: "Вкл"
         },
         Une = {
-            UP_NEXT: "Up next"
+            UP_NEXT: "Далее"
         },
         Bne = {
             CHOOSING: Dne,
