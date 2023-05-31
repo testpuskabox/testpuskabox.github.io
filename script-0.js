@@ -943,7 +943,7 @@ var u0 = $u((f0, mu) => {
         }, 0)
     };
     var Qr = function() {
-        this.override_event = "submit"
+        this.override_event = "подтвердить"
     };
     u.inherit(Qr, He);
     Qr.prototype.event_handler = function(t, e, r) {
@@ -3453,10 +3453,10 @@ var u0 = $u((f0, mu) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return e.replace(/[^йцукенгшщзхъёэждлорпавыфячсмитьбюЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮA-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(e) {
-            return e = e.replace("\u2026", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return e = e.replace("\u2026", "..."), e.replace(/[^йцукенгшщзхъёэждлорпавыфячсмитьбюЙЦУКЕНГШЩЗХЪЁЭЖДЛОРПАВЫФЯЧСМИТЬБЮ\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static sanitizeEmoji(e) {
             return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -13250,13 +13250,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp8/apply-yourself",
                         version: "5.0.0"
-                    },
+                    },*/
                     "antique-freak": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/antique-freak",
                         version: "5.91.0"
-                    },
+                    },/*
                     fourbage: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
