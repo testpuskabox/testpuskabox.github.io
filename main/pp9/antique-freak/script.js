@@ -12775,23 +12775,23 @@ ${r.message}`,
         },
         Iq = "LOADING",
         $q = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} из {maxPlayers} игроков присоединилось",
+            PLAYERS_NEEDED: "1 игрок нужен, чтобы начать | {count} игроков нужно, чтобы начать",
+            WAITING_FOR_VIP: "Ждём, пока {name} начнёт игру",
+            WAITING_FOR_GAMEPAD: "Ожидаем начала игры",
+            GAME_STARTING: "Игра начинается",
+            BUTTON_START: "Нажми, чтобы начать",
+            BUTTON_CANCEL: "Надми, чтобы отменить"
         },
         Cq = {
             GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            PLAY_AGAIN: "Играть снова?",
+            BUTTON_SAME_PLAYERS: "Те Же Игроки",
+            BUTTON_NEW_PLAYERS: "Новые Игроки"
         },
         Aq = {
             AND: "AND",
-            OR: "OR"
+            OR: "ИЛИ"
         },
         Nq = {
             BUTTON_SKIP: "Skip",
@@ -27480,7 +27480,7 @@ ${t}`
             AVATAR_SELECT_PROMPT: "Выберите аксесуар!",
             PRESENTATION_CHOICE_YES: "Рассказывать самостоятельно",
             PRESENTATION_CHOICE_NO: "Авто-Презентация",
-            PRESENTATION_MODE: "Настройка хода презентаций:",
+            PRESENTATION_MODE: "Режим Авто-Презентаций:",
             PRESENTATION_PROMPT: "Выберите режим хода презентаций",
             ON: "Выкл",
             OFF: "Вкл"
