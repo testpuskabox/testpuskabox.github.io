@@ -3749,7 +3749,7 @@ body {
 }
 
 @font-face {
-    font-family: Kit;
+    font-family: Kitsch;
     font-weight: 400;
     src: url(kitsch.ttf) format("ttf")
 }
@@ -3794,7 +3794,7 @@ body {
 .antiquegame,
 .antiquegame * {
     touch-action: manipulation;
-    font-family: Kit, serif
+    font-family: Kitsch, serif
 }
 
 .antiquegame .constrain {
