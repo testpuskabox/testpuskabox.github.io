@@ -11520,15 +11520,16 @@ var Jre = rL((Zre, OA) => {
             features: ["moderation", "kicking"],
             categoryId: "MakeFriendsGame"
         }, 
+        {
+            name: "Хламополис",
+            tag: "antique-freak",
+            wrapper: "vue",
+            isPublic: !0,
+            directory: "pp9/antique-freak",
+            features: ["moderation", "kicking"],
+            categoryId: "AntiqueGameGame"
+        },
         // {
-        //     name: "Junktopia",
-        //     tag: "antique-freak",
-        //     wrapper: "vue",
-        //     isPublic: !0,
-        //     directory: "pp9/antique-freak",
-        //     features: ["moderation", "kicking"],
-        //     categoryId: "AntiqueGameGame"
-        // }, {
         //     name: "Nonsensory",
         //     tag: "range-game",
         //     wrapper: "vue",
