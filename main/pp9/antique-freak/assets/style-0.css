@@ -3680,7 +3680,7 @@ body {
 @keyframes buzz {
     0% {
         transform: rotate(20deg);
-        top: 19%
+        top: 18%
     }
 
     5% {
@@ -3705,7 +3705,7 @@ body {
 
     60%,
     90% {
-        top: 19%
+        top: 18%
     }
 }
 
