@@ -12750,7 +12750,7 @@ ${r.message}`,
             PUBLISH: "Publish",
             REMOVE: "Remove",
             RESET: "Reset",
-            SUBMIT: "Submit",
+            SUBMIT: "Отправить",
             TRY_AGAIN: "Try Again",
             UNDO: "Undo",
             YES: "Yes"
@@ -28774,4 +28774,3 @@ ${t}`
 });
 export default $oe();
 //# sourceMappingURL=16742d45.js.map
-document.getElementsByClassName('submit')[0].innerHTML='Отправить'
