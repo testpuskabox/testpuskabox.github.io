@@ -28095,7 +28095,7 @@ ${t}`
         }, null, 8, zie))), 128))])])) : Te("", !0), e.showInput ? (q(), Y("div", Xie, [K("button", {
             class: "submit gold-button",
             type: "submit",
-            value: "Отправить",
+            value: "Submit",
             disabled: !e.canSubmit,
             style: Ga(`--textheight:${e.submitOffset}px`)
         }, it(e.$t("ACTION.SUBMIT")), 13, Jie), e.player.error || e.validationError || e.filterError ? (q(), Y("div", Qie, [e.player.error ? Ne((q(), Y("span", Zie, null, 512)), [
@@ -28774,3 +28774,4 @@ ${t}`
 });
 export default $oe();
 //# sourceMappingURL=16742d45.js.map
+document.getElementsByClassName('submit')[0].innerHTML='Отправить'
