@@ -24470,12 +24470,12 @@ ${t}`
             }
         },
         See = {
-            GAME_FULL: "Игра переполнена",
+            GAME_FULL: "Игра заполнена",
             GAME_STARTED: "Игра уже началась",
             ROOM_NOT_FOUND: "Комната не найдена"
         },
         Oee = {
-            GAME_FULL: "ИГРА ПЕРЕПОЛНЕНА",
+            GAME_FULL: "ИГРА ЗАПОЛНЕНА",
             GAME_STARTED: "ИГРА УЖЕ НАЧАЛАСЬ",
             JOIN_AUDIENCE: "ЗАЙТИ К ЗРИТЕЛЯМ",
             RECONNECT: "ПЕРЕЗАЙТИ",
