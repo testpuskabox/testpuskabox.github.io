@@ -67,9 +67,9 @@
   @font-face {
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-display: swap;
-    src: url(helveticaneuecyr_black.otf) format('woff2');
+    src: url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap) format('woff2');
   }
   /* vietnamese */
   @font-face {
@@ -93,7 +93,7 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(helveticaneuecyr_black.otf) format('woff2');
+    src: url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap) format('woff2');
   }
 .fallback {
     height: 100%;
