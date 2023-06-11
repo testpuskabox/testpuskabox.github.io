@@ -13244,13 +13244,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/tjsp/quiplash3",
                         version: "5.78.0"
-                    },
+                    },*/
                     "apply-yourself": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp8/apply-yourself",
                         version: "5.0.0"
-                    },*/
+                    },
                     "antique-freak": {
                         file: "script.js",
                         css: ["assets/style-0.css"],
