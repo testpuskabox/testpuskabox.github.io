@@ -12764,14 +12764,14 @@ ${r.message}`,
             }
         },
         wq = {
-            DISCONNECTED: "You have been disconnected.",
+            DISCONNECTED: "Вы были отключены.",
             DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
+            PLAYER_KICKED: "Вы были исключены из игры модератором.",
             ROOM_DESTROYED: "Спасибо вам за игру!",
             ROOM_DISCONNECTED: "Отключено",
             TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            TEXT_NOTHING: "Ты не можешь ничего не ввести!",
+            TITLE: "Ошибка"
         },
         Iq = "LOADING",
         $q = {
@@ -12784,7 +12784,7 @@ ${r.message}`,
             BUTTON_CANCEL: "Нажми, чтобы отменить"
         },
         Cq = {
-            GALLERY_LINK: "Visit the Gallery",
+            GALLERY_LINK: "Посетить галерею",
             PLAY_AGAIN: "Играть снова?",
             BUTTON_SAME_PLAYERS: "Те Же Игроки",
             BUTTON_NEW_PLAYERS: "Новые Игроки"
