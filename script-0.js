@@ -13268,13 +13268,13 @@ Url: ${Wr(t)}`), !0)
                         css: ["assets/style-0.css"],
                         base: "main/pp9/htmf",
                         version: "5.93.0"
-                    }/*,
+                    },
                     lineup: {
                         file: "script.js",
                         css: ["assets/style-0.css"],
                         base: "main/pp9/lineup",
                         version: "5.83.0"
-                    },
+                    },/*
                     "range-game": {
                         file: "script.js",
                         css: ["assets/style-0.css"],

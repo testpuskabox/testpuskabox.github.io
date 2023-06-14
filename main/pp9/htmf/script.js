@@ -4528,8 +4528,8 @@ var due = eR((pue, bS) => {
             var t = Math.random().toString(36).substring(2, 10) + Math.random().toString(36).substring(2, 10);
             return e ? t.substring(0, e) : t
         },
-        qL = /[a-z0-9][a-z0-9-]*\.[a-z]+$/i,
-        HL = /[a-z0-9][a-z0-9-]+\.[a-z.]{2,6}$/i,
+        qL = /[a-zа-я0-9][a-zа-я0-9-]*\.[a-z]+$/i,
+        HL = /[a-zа-я0-9][a-z0-9-]+\.[a-z.]{2,6}$/i,
         w_ = function(e) {
             var t = HL,
                 r = e.split("."),
@@ -7138,10 +7138,10 @@ var due = eR((pue, bS) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12695,7 +12695,7 @@ ${r}`,
             }
         },
         Ri = (e, t) => {
-            if (!/[^\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
+            if (!/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
                 result: e,
                 charCount: e.length
             };
@@ -12704,7 +12704,7 @@ ${r}`,
                 a = "";
             for (let c = 0; c < n.length && (t ? s < t : !0); c += 1) {
                 const l = n[c];
-                if (/[\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026]/gi.test(l)) a += l, s += 1;
+                if (/[\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026]/gi.test(l)) a += l, s += 1;
                 else if (JU(l)) {
                     if (a += l, vn(l, HU)) {
                         c += 1;
@@ -12895,10 +12895,10 @@ ${r.message}`,
             return String(t).replace(r, "")
         }
         static input(t) {
-            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "")
+            return t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’]/gi, "")
         }
         static username(t) {
-            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static emoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12908,7 +12908,7 @@ ${r.message}`,
             BACK: "Back",
             CANCEL: "Cancel",
             CLOSE: "Close",
-            CONFIRM: "Confirm",
+            CONFIRM: "Отправить",
             CREATE: "Create",
             DELETE: "Delete",
             DONE: "Done",
@@ -14010,7 +14010,7 @@ ${r.message}`,
                 rf = RegExp(Zu + "(?=" + Zu + ")|" + aO + Cm, "g"),
                 lO = RegExp([Us + "?" + Em + "+" + Im + "(?=" + [_m, Us, "$"].join("|") + ")", tO + "+" + Am + "(?=" + [_m, Us + Om, "$"].join("|") + ")", Us + "?" + Om + "+" + Im, Us + "+" + Am, iO, nO, ym, sO].join("|"), "g"),
                 uO = RegExp("[" + Sm + dc + dm + mm + "]"),
-                fO = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/,
+                fO = /[a-zа-я][A-ZА-Я]|[A-ZА-Я]{2}[a-zа-я]|[0-9][a-zA-Zа-яА-Я]|[a-zA-Zа-яА-Я][0-9]|[^a-zA-Zа-яА-Я0-9 ]/,
                 dO = ["Array", "Buffer", "DataView", "Date", "Error", "Float32Array", "Float64Array", "Function", "Int8Array", "Int16Array", "Int32Array", "Map", "Math", "Object", "Promise", "RegExp", "Set", "String", "Symbol", "TypeError", "Uint8Array", "Uint8ClampedArray", "Uint16Array", "Uint32Array", "WeakMap", "_", "clearTimeout", "isFinite", "parseInt", "setTimeout"],
                 hO = -1,
                 Ct = {};
@@ -20271,7 +20271,7 @@ function print() { __p += __j.call(arguments, '') }
                     return new bi.Token(bi.Token.Type.startTag, r, n, t[0])
                 }
                 return new bi.Token(bi.Token.Type.endTag, t[1].substr(1, t[1].length - 1))
-            }, e.nameChars = "[a-zA-Z0-9\\.\\-_:;/]", e.valueChars = "[a-zA-Z0-9\\.\\-_:;#/\\s]", e
+            }, e.nameChars = "[a-zA-Zа-яА-Я0-9\\.\\-_:;/]", e.valueChars = "[a-zA-Zа-яА-Я0-9\\.\\-_:;#/\\s]", e
         }();
     Fu.Tokenizer = yY;
     (function(e) {
@@ -27687,7 +27687,7 @@ ${t}`
         },
         _ie = {
             INSTRUCTIONS: "Кто должен уйти?",
-            PLACEHOLDER: "What did they do to deserve this?"
+            PLACEHOLDER: "Почему игрок заслужил изгнания?"
         },
         yie = "Финальный раунд",
         Eie = "Готово",
@@ -27759,7 +27759,7 @@ ${t}`
         },
         Nie = {
             GOODBYE: {
-                DONE: "Я Готов"
+                DONE: "Готово"
             },
             PLACEHOLDER: {
                 GOODBYE: "Попрощайся... или нет!",
@@ -29512,7 +29512,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
         const t = /^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|v.?|vs.?|via)$/i,
             r = /([A-Za-z0-9\u00C0-\u00FF])/,
             n = /([ :–—-])/;
-        return e.split(n).map((s, a, c) => s.search(t) > -1 && a !== 0 && a !== c.length - 1 && c[a - 3] !== ":" && c[a + 1] !== ":" && (c[a + 1] !== "-" || c[a - 1] === "-" && c[a + 1] === "-") ? s.toLowerCase() : s.substring(1).search(/[A-Z]|\../) > -1 ? s : s.replace(r, l => l.toUpperCase())).join("")
+        return e.split(n).map((s, a, c) => s.search(t) > -1 && a !== 0 && a !== c.length - 1 && c[a - 3] !== ":" && c[a + 1] !== ":" && (c[a + 1] !== "-" || c[a - 1] === "-" && c[a + 1] === "-") ? s.toLowerCase() : s.substring(1).search(/[A-ZА-Я]|\../) > -1 ? s : s.replace(r, l => l.toUpperCase())).join("")
     }
     const qce = et({
             components: {

@@ -11544,7 +11544,7 @@ var Jre = rL((Zre, OA) => {
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/lineup",
-            features: ["kicking", "previews"],
+            features: ["kicking"],
             categoryId: "LineupGame"
         }],
         Io = e => U3.find(t => t.tag === e || t.categoryId === e);
