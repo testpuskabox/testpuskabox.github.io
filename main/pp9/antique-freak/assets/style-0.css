@@ -3745,13 +3745,13 @@ body {
 @font-face {
     font-family: CCSpellcaster;
     font-weight: 400;
-    src: url(CCSpellcaster.ttf) format("ttf")
+    src: url(CCSpellcaster.woff) format("woff");
 }
 
 @font-face {
     font-family: Kitsch;
     font-weight: 400;
-    src: url(kitsch.ttf) format("ttf")
+    src: url(kitsch.woff) format("woff");
 }
 
 .antiquegame {

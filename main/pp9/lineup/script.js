@@ -10682,8 +10682,8 @@ ${n.message}`,
             BUTTON_NEW_PLAYERS: "Новые Игроки"
         },
         B3 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "И",
+            OR: "ИЛИ"
         },
         F3 = {
             BUTTON_SKIP: "Skip",
@@ -10691,7 +10691,7 @@ ${n.message}`,
             BUTTON_DONE: "Let\u2019s Go!"
         },
         U3 = {
-            NAME: "AUDIENCE"
+            NAME: "ЗРИТЕЛИ"
         },
         G3 = {
             EPISODE_REPORT: "Report Episode",
@@ -10725,21 +10725,21 @@ ${n.message}`,
         },
         j3 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Вы были успешно подключены к расширению Jackbox Audience Kit Twitch.",
+                WARNING: "В НАСТРОЙКАХ ИГРЫ ЗРИТЕЛИ БЫЛИ ОТКЛЮЧЕНЫ"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ПЕРЕПОДКЛЮЧЕНО",
+                SUBTEXT: "Приятной игры!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "СОЕДИНЕНИЕ ПРЕРВАНО",
+                    SUBTEXT: "Попытка переподключения ({attempt} из 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "СОЕДИНЕНИЕ С ИГРОЙ ПРЕРВАНО",
+                    SUBTEXT: "Пожалуйста, подожди. Мы пытаемся переподключиться..."
                 }
             }
         },
@@ -25395,7 +25395,7 @@ ${t}`
         qte = {
             LEFT: "лево",
             RIGHT: "право",
-            SLAM: "сбросить",
+            SLAM: "бросить",
             FEED: "покормить",
             YOU_UP_NEXT: "ты[line]следующий[/line]",
             IS_UP_NEXT: "следующий[line]{name}[/line]",
@@ -25415,12 +25415,12 @@ ${t}`
             CIRCUS_TITLE: "Blow up the balloon[i](and keep your device awake)[/i]",
             FEYTWEE_ACTION: "water",
             FEYTWEE_TITLE: "Water the flower[i](and keep your device awake)[/i]",
-            LAMPOON_ACTION: "feed",
+            LAMPOON_ACTION: "кормить",
             LAMPOON_TITLE: "Feed the Jester[i](and keep your device awake)[/i]",
             HECTOR_ACTION: "drop",
             HECTOR_TITLE: "Drop a Science Pellet[i](and keep your device awake)[/i]",
-            TRASH_ACTION: "feed",
-            TRASH_TITLE: "Feed the Trash Monster[i](and keep your device awake)[/i]"
+            TRASH_ACTION: "кормить",
+            TRASH_TITLE: "Корми Мусорного Монстра[i](и сдели, чтобы устройство не выключалось)[/i]"
         },
         zte = {
             BOGO_TITLE: "bogo-a-go-go",

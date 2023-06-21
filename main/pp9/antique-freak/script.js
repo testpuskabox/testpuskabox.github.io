@@ -12833,21 +12833,21 @@ ${r.message}`,
         },
         Pq = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Вы были успешно подключены к расширению Jackbox Audience Kit Twitch.",
+                WARNING: "В НАСТРОЙКАХ ИГРЫ ЗРИТЕЛИ БЫЛИ ОТКЛЮЧЕНЫ"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "ПЕРЕПОДКЛЮЧЕНО",
+                SUBTEXT: "Приятной игры!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "СОЕДИНЕНИЕ ПРЕРВАНО",
+                    SUBTEXT: "Попытка переподключения ({attempt} из 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "СОЕДИНЕНИЕ С ИГРОЙ ПРЕРВАНО",
+                    SUBTEXT: "Пожалуйста, подожди. Мы пытаемся переподключиться..."
                 }
             }
         },
@@ -27477,11 +27477,11 @@ ${t}`
             FILTER_ERROR: "Этот текст содержит плохие слова. Попробуй ещё раз!"
         },
         Fne = {
-            AVATAR_SELECT_PROMPT: "Выберите аксесуар!",
+            AVATAR_SELECT_PROMPT: "Выбери аксесуар!",
             PRESENTATION_CHOICE_YES: "Рассказывать самостоятельно",
             PRESENTATION_CHOICE_NO: "Авто-Презентация",
             PRESENTATION_MODE: "Режим Авто-Презентаций:",
-            PRESENTATION_PROMPT: "Выберите режим хода презентаций",
+            PRESENTATION_PROMPT: "Выбери режим хода презентаций",
             ON: "Выкл",
             OFF: "Вкл"
         },

@@ -4295,26 +4295,26 @@ button.mystery[data-v-df5b5dad] {
 
 @font-face {
     font-family: Torus;
-    src: url(e30d9fd7.woff2) format("woff2"), url(d11979a3.woff) format("woff")
+    src: url(e30d9fd7.woff) format("woff");
 }
 
 @font-face {
     font-family: Torus;
     font-style: italic;
-    src: url(e30d9fd7.woff2) format("woff2"), url(29d37366.woff) format("woff")
+    src: url(e30d9fd7.woff) format("woff2");
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 700;
-    src: url(7541cdf1.woff2) format("woff2"), url(b359c54c.woff) format("woff")
+    src: url(7541cdf1.woff) format("woff");
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 700;
     font-style: italic;
-    src: url(7541cdf1.woff2) format("woff2"), url(b359c54c.woff) format("woff")
+    src: url(7541cdf1.woff) format("woff");
 }
 
 .lineup {
