@@ -7138,10 +7138,10 @@ var due = eR((pue, bS) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’]/gi, "")
+            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’?_]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12695,7 +12695,7 @@ ${r}`,
             }
         },
         Ri = (e, t) => {
-            if (!/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
+            if (!/[^A-Za-z\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026?_!]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
                 result: e,
                 charCount: e.length
             };
@@ -12704,7 +12704,7 @@ ${r}`,
                 a = "";
             for (let c = 0; c < n.length && (t ? s < t : !0); c += 1) {
                 const l = n[c];
-                if (/[\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026]/gi.test(l)) a += l, s += 1;
+                if (/[A-Za-z\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026?_!]/gi.test(l)) a += l, s += 1;
                 else if (JU(l)) {
                     if (a += l, vn(l, HU)) {
                         c += 1;
@@ -12895,10 +12895,10 @@ ${r.message}`,
             return String(t).replace(r, "")
         }
         static input(t) {
-            return t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’]/gi, "")
+            return t.replace(/[^\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026’?!]/gi, "")
         }
         static username(t) {
-            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static emoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12968,7 +12968,7 @@ ${r.message}`,
             BUTTON_DONE: "Let\u2019s Go!"
         },
         oF = {
-            NAME: "AUDIENCE"
+            NAME: "ЗРИТЕЛИ"
         },
         cF = {
             EPISODE_REPORT: "Report Episode",
@@ -27682,7 +27682,7 @@ ${t}`
         },
         mie = "1 символ остался | {num} символов осталось",
         vie = {
-            PICKS: "выберает",
+            PICKS: "выбирает",
             WITH: "вместе с"
         },
         _ie = {
@@ -27745,12 +27745,12 @@ ${t}`
             NO_ONE: "НИКТО",
             SUFFIX: {
                 CHALLENGE: {
-                    EVERYONE: ["You're a star!", "Don't get cocky.", "Nailing it.", "You're having a moment."],
-                    NO_ONE: ["Deal with it.", "Time to get noticed!", "Step it up.", "Get on the radar!", "You're blowing it.", "Fix this.", "Scared?", "Change it up!", "\u{1F622}"]
+                    EVERYONE: ["Ты – звезда!", "Не наглей.", "У тебя получилось!", "Твой звёздный час."],
+                    NO_ONE: ["Смирись с этим.", "В следующий раз повезёт.", "Забудь.", "В следующий раз постарайся.", "Не получилось...", "Поработай над собой.", "Напуган?", "\u{1F622}"]
                 },
                 ELIMINATION: {
-                    EVERYONE: ["You're the villain.", "Literally everyone.", "Think about that.", "Figure it out.", "\u{1F622}"],
-                    NO_ONE: ["Enjoy it.", "Exhale.", "You're safe for now."]
+                    EVERYONE: ["Может, ты и не так одинок.", "Буквально все.", "Подумай над этим.", "Сегодня просто не твой день.", "\u{1F622}"],
+                    NO_ONE: ["Наслаждайся.", "Повезло.", "Сейчас – ты под защитой."]
                 }
             }
         },
