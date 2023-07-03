@@ -2,36 +2,36 @@
     "bannerAds": [
         {
             "tags": [
-                "locale-en"
+                "locale-ru"
             ]
         },
         {
             "start": "2021-08-13",
             "text": "ЗАХОДИ В НАШ DISCORD!",
-            "src": "https://jackbox.pro/main/@connect/nanners/ds.png",
+            "src": "main/@connect/nanners/ds.png",
             "href": "https://discord.gg/3dyExacRsQ"
         },
         {"start": "2021-08-13",
         "text": "ПОДРОБНЕЕ О ПРОЕКТАХ",
-        "src": "https://jackbox.pro/main/@connect/nanners/site.png",
-        "href": "https://pusko.site/projects"
+        "src": "main/@connect/nanners/site.png",
+        "href": "https://jackbox.pusko.site/library"
     },
     {"start": "2021-08-13",
     "text": "ПОДДЕРЖИ ПЕРЕВОДЫ",
-    "src": "https://jackbox.pro/main/@connect/nanners/junk.png",
+    "src": "main/@connect/nanners/junk.png",
     "href": "https://boosty.to/puskanyaww"
 },
 {
     "start": "2021-08-13",
     "text": "ПОМОЩЬ ЗДЕСЬ",
-    "src": "https://jackbox.pro/main/@connect/nanners/box.png",
-    "href": "https://box.pusko.site"
+    "src": "main/@connect/nanners/box.png",
+    "href": "https://jackbox.pusko.site/v-o"
 },
 {
     "start": "2021-08-13",
     "text": "УЖЕ ДОСТУПНО!",
-    "src": "https://jackbox.pro/main/@connect/nanners/plod.png",
-    "href": "https://pusko.site/projects/plod"
+    "src": "main/@connect/nanners/plod.png",
+    "href": "https://jackbox.pusko.site/library/tJpp_one"
 }
     ]
 }

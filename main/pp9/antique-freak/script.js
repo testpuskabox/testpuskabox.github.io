@@ -27697,7 +27697,7 @@ ${t}`
             if (!e) return "";
             const t = e.id.split("_")[0],
                 r = (n = e.type) != null ? n : "png";
-            return `https://s3.amazonaws.com/static.jackboxgames.com/game-images/antique-game/${t}.${r}`
+            return `https://p.pusko.site/AntiqueGameAntique/${t}.${r}`
         },
         Tie = st({
             components: {

@@ -24438,7 +24438,7 @@ ${t}`
             TWITCH: "TWITCH",
             LIGHT: "светлая",
             LOGOUT: "ВЫЙТИ",
-            OURSITE: "ГЛАВНЫЙ САЙТ",
+            OURSITE: "НАШ САЙТ",
             MERCH: "МЕРЧ",
             PAST_GAMES: "ПРОШЕДШИЕ ИГРЫ",
             MODERATOR: "МОДЕРАТОР"
@@ -24484,7 +24484,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Рус.)[/tos] Полный перечень доступных игр можно посмотреть [toses]Здесь[/toses]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Рус.)[/tos] Если вы нашли ошибку, то можете [toses]Обратиться К Нам[/toses]"
         },
         Iee = {
             BRANCH: gee,
@@ -26278,9 +26278,9 @@ de tu lista de partidas anteriores.`,
             }
         });
     const zne = () => {
-            const e = pn("maxSlide", et(1)),
-                t = pn("minSlide", et(1)),
-                n = pn("currentSlide", et(1)),
+            const e = pn("maxSlide", et(3)),
+                t = pn("minSlide", et(3)),
+                n = pn("currentSlide", et(3)),
                 r = pn("nav", {});
 
             function s(u) {
@@ -26336,7 +26336,7 @@ de tu lista de partidas anteriores.`,
                 async load() {
                     var e;
                     try {
-                        const n = await (await fetch("https://jackbox.pro/main/@connect/nanners/nanners.json")).json(),/*https://host.pusko.site/pro/banners.json*/
+                        const n = await (await fetch("main/@connect/nanners/nanners.json")).json(),/*https://host.pusko.site/pro/banners.json*/
                             r = (e = n == null ? void 0 : n.bannerAds) != null ? e : [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(s => ({
                             url: s.href,
@@ -26354,18 +26354,6 @@ de tu lista de partidas anteriores.`,
                         url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
                         image: "main/@connect/banners/sverxsort.png",
                         text: "НЕ СОВСЕМ СКОРО!"
-                    },{
-                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "main/@connect/banners/plod.png",
-                        text: "УЖЕ ДОСТУПНО!"
-                    },{
-                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "banners",
-                        text: "AVAILABLE NOW!"
-                    },{
-                        url: "https://www.jackboxgames.com/party-pack-seven/?utm_source=jbgtv&utm_medium=jbgtvpp7&utm_campaign=jbgtvpp7",
-                        image: "https://s3.amazonaws.com/static.jackboxgames.com/banners/PP7.png",
-                        text: "AVAILABLE NOW!"
                     }]
                 },
                 isValidBanner(e) {
@@ -26625,7 +26613,7 @@ de tu lista de partidas anteriores.`,
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         },Ie(e.$t("MENU.MERCH")), 1)]), Y("li", null, [Y("a", {
-            href: "https://pusko.site",
+            href: "https://jackbox.pusko.site",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
         },Ie(e.$t("MENU.OURSITE")), 1)]), Y("li", null, [Y("a", {
@@ -26840,8 +26828,8 @@ de tu lista de partidas anteriores.`,
                 }
             },
             bb: {
-                tos: (e, t) => `<a class="tosLink" href="https://box.pusko.site/terms-of-service/" target="_blank">${t}</a>`,
-                toses: (e, t) => `<a class="tosLink" href="https://jackbox.pro/manifest" target="_blank">${t}</a>`
+                tos: (e, t) => `<a class="tosLink" href="https://jackbox.pusko.site/doc/terms-of-service/" target="_blank">${t}</a>`,
+                toses: (e, t) => `<a class="tosLink" href="https://discord.gg/3dyExacRsQ" target="_blank">${t}</a>`
             },
             data() {
                 return {
