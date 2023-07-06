@@ -24438,6 +24438,7 @@ ${t}`
             TWITCH: "TWITCH",
             LIGHT: "светлая",
             LOGOUT: "ВЫЙТИ",
+            TEEKO: "ФУТБОЛ K.O. WEB",
             OURSITE: "НАШ САЙТ",
             MERCH: "МЕРЧ",
             PAST_GAMES: "ПРОШЕДШИЕ ИГРЫ",
@@ -24484,7 +24485,7 @@ ${t}`
         Aee = {
             CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
             STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Рус.)[/tos] Если вы нашли ошибку, то можете [toses]Обратиться К Нам[/toses]"
+            TOS: "Нажимая {submit}, вы соглашаетесь с [tos]Условиями пользования (Рус.)[/tos]"
         },
         Iee = {
             BRANCH: gee,
@@ -26616,7 +26617,11 @@ de tu lista de partidas anteriores.`,
             href: "https://jackbox.pusko.site",
             target: "_blank",
             onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
-        },Ie(e.$t("MENU.OURSITE")), 1)]), Y("li", null, [Y("a", {
+        },Ie(e.$t("MENU.OURSITE")), 1)]), Y("li", null, [Y("a",{
+            href: "https://teeko.jackbox.pro",
+            target: "_blank",
+            onClick: t[5] || (t[5] = f => e.onLinkClick("merch"))
+        },Ie(e.$t("MENU.TEEKO")), 1)]), Y("li", null, [Y("a",  {
             onKeyup: t[6] || (t[6] = Hs((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["enter"])),
             onClick: t[7] || (t[7] = Bt((...f) => e.onPastGamesClick && e.onPastGamesClick(...f), ["prevent"]))
         }, [Bn(Ie(e.$t("MENU.PAST_GAMES")) + " ", 1), e.hasUnseenGames ? (z(), Q("div", Ore)) : we("", !0)], 32)]), ft(c), e.shouldShowPreferredBranch ? (z(), nr(u, {

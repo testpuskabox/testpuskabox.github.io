@@ -11122,7 +11122,7 @@ var Qne = n$((tie, O1) => {
             isPublic: !0,
             directory: "pp1/drawful"
         }, {
-            name: "Word Spud",
+            name: "Плодослов",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
@@ -11399,7 +11399,7 @@ var Qne = n$((tie, O1) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Tee K.O.",
+            name: "Футбол K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -11422,14 +11422,14 @@ var Qne = n$((tie, O1) => {
             directory: "pp9/fourbage",
             features: ["moderation", "kicking"]
         }, {
-            name: "Roomerang",
+            name: "Квартиранг",
             tag: "htmf",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp9/htmf",
             features: ["moderation", "kicking"]
         }, {
-            name: "Junktopia",
+            name: "Хламополис",
             tag: "antique-freak",
             wrapper: "vue",
             isPublic: !0,
@@ -11445,7 +11445,7 @@ var Qne = n$((tie, O1) => {
             features: ["moderation", "kicking"],
             categoryId: "RangeGameGame"
         }, {
-            name: "Quixort",
+            name: "Скоросорт",
             tag: "lineup",
             wrapper: "vue",
             isPublic: !0,
