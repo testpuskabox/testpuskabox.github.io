@@ -25420,7 +25420,7 @@ ${t}`
             HECTOR_ACTION: "drop",
             HECTOR_TITLE: "Drop a Science Pellet[i](and keep your device awake)[/i]",
             TRASH_ACTION: "кормить",
-            TRASH_TITLE: "Корми Мусорного Монстра[i](и сдели, чтобы устройство не выключалось)[/i]"
+            TRASH_TITLE: "Корми Мусорного Монстра[i](и следи, чтобы устройство не выключалось)[/i]"
         },
         zte = {
             BOGO_TITLE: "bogo-a-go-go",
