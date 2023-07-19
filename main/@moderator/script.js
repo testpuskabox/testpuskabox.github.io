@@ -11376,7 +11376,7 @@ var Qne = n$((tie, O1) => {
             directory: "pp8/the-wheel",
             categoryId: "TheWheelGame"
         }, {
-            name: "The Poll Mine",
+            name: "Шахтодумка",
             tag: "survey-bomb",
             wrapper: "vue",
             isPublic: !0,

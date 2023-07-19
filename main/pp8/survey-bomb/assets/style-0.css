@@ -3571,7 +3571,7 @@ body {
     position: relative;
     top: 26px;
     left: 50%;
-    width: 274px;
+    width: 350px;
     height: 104px;
     margin-bottom: 20px;
     background-image: url(bc8f1eaf.png);
@@ -3582,9 +3582,10 @@ body {
 .waiting .logo[data-v-a9953353]:after {
     content: "";
     position: absolute;
-    top: -82%;
+    top: -93px;
     width: 102px;
     height: 190px;
+    left: 286px;
     background: url(c6b3e1b2.png);
     background-size: 900% 500%;
     transform: scale(.45);
@@ -3647,16 +3648,16 @@ body {
 
 @font-face {
     font-family: Adso;
-    src: url(c53acd99.otf) format("otf"), url(64238c7e.woff2) format("woff2"), url(0db71edf.woff) format("woff");
+    src: url(c53acd99.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Adso;
-    src: url(9dd2afc6.otf) format("otf"), url(ce5d340b.woff2) format("woff2"), url(6aa71ea1.woff) format("woff");
+    src: url(9dd2afc6.woff) format("woff");
     font-weight: 700;
-    font-style: normal
+    font-style: normal;
 }
 
 :root {

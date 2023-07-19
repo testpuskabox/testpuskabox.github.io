@@ -11459,14 +11459,15 @@ var Jre = rL((Zre, OA) => {
         //     isPublic: !0,
         //     directory: "pp8/the-wheel",
         //     categoryId: "TheWheelGame"
-        // }, {
-        //     name: "The Poll Mine",
-        //     tag: "survey-bomb",
-        //     wrapper: "vue",
-        //     isPublic: !0,
-        //     directory: "pp8/survey-bomb",
-        //     categoryId: "SurveyBombGame"
-        // },
+        // }, 
+        {
+            name: "Шахтодумка",
+            tag: "survey-bomb",
+            wrapper: "vue",
+            isPublic: !0,
+            directory: "pp8/survey-bomb",
+            categoryId: "SurveyBombGame"
+        },
         //  {
         //     name: "Weapons Drawn",
         //     tag: "murder-detectives",

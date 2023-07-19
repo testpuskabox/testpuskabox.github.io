@@ -4719,10 +4719,10 @@ var Fie = fR((jie, LS) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return t.replace(/[^A-Z0-9\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(t) {
-            return t = t.replace("\u2026", "..."), t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            return t = t.replace("\u2026", "..."), t.replace(/[^\u0410-\u044F\u0451\u0401\u0407\u0457\u0406\u0456\u0404\u0454\u0490\u0491\u00A1\u0020-\u002F\u00BF-\u00FF\u2026\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -10391,7 +10391,7 @@ ${r.message}`,
             PUBLISH: "Publish",
             REMOVE: "Remove",
             RESET: "Reset",
-            SUBMIT: "Submit",
+            SUBMIT: "Подтвердить",
             TRY_AGAIN: "Try Again",
             UNDO: "Undo",
             YES: "Yes"
@@ -10416,19 +10416,19 @@ ${r.message}`,
         },
         P4 = "LOADING",
         x4 = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} из {maxPlayers} игроков присоединилось",
+            PLAYERS_NEEDED: "1 игрок нужен, чтобы начать | {count} игроков нужно, чтобы начать",
+            WAITING_FOR_VIP: "Ждём, пока {name} начнёт игру",
+            WAITING_FOR_GAMEPAD: "Ожидаем начала игры",
+            GAME_STARTING: "Игра начинается",
+            BUTTON_START: "Нажми, чтобы начать",
+            BUTTON_CANCEL: "Нажми, чтобы отменить"
         },
         D4 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Посетить галерею",
+            PLAY_AGAIN: "Играть снова?",
+            BUTTON_SAME_PLAYERS: "Те Же Игроки",
+            BUTTON_NEW_PLAYERS: "Новые Игроки"
         },
         M4 = {
             AND: "AND",
@@ -25066,38 +25066,38 @@ ${t}`
                 ORDERED: "Choose the door you think is {rank}",
                 UNORDERED: "Choose all {amount} correct doors"
             },
-            REMAINING: "Remaining Choices: {remaining}"
+            REMAINING: "Осталось выборов: {remaining}"
         },
         Kte = {
-            CHOOSE_ONE: "Choose a door",
-            CHOOSE_THIS: "Choose this door"
+            CHOOSE_ONE: "Выбери дверь",
+            CHOOSE_THIS: "Выбрать эту дверь"
         },
         Hte = {
-            FILTER_ERROR: "That\u2019s not allowed, enter something else!",
+            FILTER_ERROR: "Этот текст не допустим, попробуй что-нибудь другое!",
             INSTRUCTION: {
-                AVATAR: "Pick your avatar",
-                NAME_TEAM: "Suggest a team name",
-                RANK_TEAM: "Rank your favorite team names"
+                AVATAR: "Выбери свой облик",
+                NAME_TEAM: "Предложи название команде",
+                RANK_TEAM: "Составь топ лучших названий для команд"
             }
         },
-        Vte = "No torches",
+        Vte = "Нет факелов",
         qte = {
-            CONFIRM: "Yeah, yeah, I got it",
+            CONFIRM: "Ага, ага, я уже понял",
             SUBTEXT: {
-                ATTENTION: "[b]YOU MUST HAVE THE AUDIENCE ON TO PLAY![/b]",
-                BEST: "[b]BEST:[/b] Passwording the game and sharing the password with your desired team",
-                GOOD: "[b]ALMOST AS GOOD:[/b] Hiding the room code and setting a max player limit",
-                RECOMMEND: "We recommend the following settings to help create your desired team and audience.",
-                RESTART: "So, if you haven\u2019t done that, maybe restart the game?"
+                ATTENTION: "[b]ЗРИТЕЛИ ДОЛЖНЫ БЫТЬ ВКЛЮЧЕНЫ, ЧТОБЫ ИГРАТЬ В РЕЖИМ СТРИМЕРА![/b]",
+                BEST: "[b]ЛУЧШЕ ВСЕГО:[/b] Поставить пароль на игру, чтобы защитить команду стримеров.",
+                GOOD: "[b]ВСЕГДА ХОРОШО:[/b] Прятать код комнаты и устанавливать максимальное кол-во игроков.",
+                RECOMMEND: "Мы рекомендуем эти настройки для команды стримеров и команды зрителей.",
+                RESTART: "Так что, если вы этого не сделали, может лучше перезапустить игру?"
             },
-            TEXT: "Welcome to Streamer Mode!"
+            TEXT: "Добро пожаловать в Режим Стримера!"
         },
         Yte = {
             INSTRUCTION: "Remember your choices",
-            PICK_MORE: "Pick {amount} more"
+            PICK_MORE: "Осталось выбрать {amount}"
         },
-        zte = "Switch teams",
-        Xte = "VS",
+        zte = "Сменить команду",
+        Xte = "ПРОТИВ",
         Jte = {
             FINAL_CHANCE: {
                 BOTH: "If either team gets the next choice right, the game is over!",
@@ -25106,17 +25106,17 @@ ${t}`
                 RIVAL: "If your team gets your next choice right, the game is over!"
             },
             LOSE: {
-                HEADER: "You\u2019re Trapped",
-                TEXT: ["Don\u2019t worry, apparently you were tasty.", "At least the other team is happy.", "Learn more about your friends next time.", "Still, you learned a lot about each other.", "It is pitch black. You are likely to be eaten by a grue.", "Even worse, you\u2019re damp.", "Theivery doesn\u2019t pay!", "It\u2019s okay, Laverne will keep you company.", "Enjoy the musty air.", "At least your team name was cool."]
+                HEADER: "Ты в Ловушке",
+                TEXT: ["Хотя бы другая команда довольна.", "В следующий раз поузнавайте побольше о своих друзьях.", "Всё-таки вы много чего узнали о друг друге.", "Кромешная темнота. Наверное, тебя съест монстр", "Ну... Могло быть и хуже.", "Не расстраивайся, Кошерна составит тебе компанию.", "Наслаждайся грязным воздухом.", "Зато у твоей команды было самое крутое название."]
             },
-            SKIP_TUTORIALS: "Skip Tutorials",
+            SKIP_TUTORIALS: "Пропустить обучение",
             UP_NEXT: {
-                HEADER: "You\u2019re Up Next",
-                TEXT: ["Get ready! You\u2019re choosing next.", "Pay attention because you\u2019re picking the next door.", "After this choice, it\u2019s your turn\u2026 so hope they fail!"]
+                HEADER: "Ты следующий",
+                TEXT: ["Приготовься! Ты будешь выбирать следующим.", "Будь начеку, потому что ты будешь выбирать следующую дверь.", "После этого ходва, наступит твой, так что надейя на неудачу противника!"]
             },
             WIN: {
-                HEADER: "You Escaped",
-                TEXT: ["Congratulations on a job well done!", "Teamwork made this dream work.", "Don\u2019t spend all that gold you stole earlier in one place.", "Enjoy the fresh air.", "Don\u2019t forget to rate your stay!", "I\u2019m sure the other team is just fine.", "You picked your friends\u2019 knows!", "Looking forward to your next visit.", "The real treasure was the friends we lost to the depths of this mine.", "Everyone is proud of you."]
+                HEADER: "Ты Сбежал",
+                TEXT: ["Поздравляю, хорошая работа!", "Командная работа – работа мечты.", "Don\u2019t spend all that gold you stole earlier in one place.", "Наслаждайся свежим воздухом.", "Не забудь поставить оценку", "Мы все знаем, что другая команда будет в порядке.", "Ты выбрал правильных друзей!", "Ожидаем вашего следующего визита.", "Настоящее сокровище – друзья оставшиеся в глубинах этоу шахты.", "Все гордятся тобой."]
             }
         },
         Zte = {
