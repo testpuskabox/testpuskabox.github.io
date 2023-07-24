@@ -9092,7 +9092,7 @@ Url: ${Rr(t)}`), !0)
             throw new Error("[loader] Could not resolve a branch name and main is not available")
         }
         getS3Url(e, r) {
-            return `bundle_pro/${r}/${e}`
+            return `${r}/${e}`
         }
         async loadHMRBundle(e) {
             const r = e.file;
