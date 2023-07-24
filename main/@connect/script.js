@@ -14337,7 +14337,7 @@ var bae = X$((loe, vI) => {
         static pageView(e) {
             gtag("event", "page_view", {
                 page_title: e,
-                page_location: `https://jackbox.tv/${e}`
+                page_location: `https://jackbox.pro/${e}`
             })
         }
         static gameStarted(e, r) {
@@ -15368,7 +15368,7 @@ var bae = X$((loe, vI) => {
             return Math.round((e + Number.EPSILON) * n) / n
         }
         static isProduction() {
-            return window.location.hostname === "jackbox.tv"
+            return window.location.hostname === "jackbox.pro"
         }
         static htmlUnescape(e) {
             return String(e).replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">").replace(/&amp;/gi, "&")
