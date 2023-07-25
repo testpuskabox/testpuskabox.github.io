@@ -10017,7 +10017,7 @@ Url: ${Rr(t)}`), !0)
         },
         am = 9091,
         cm = "teeko.jackboxgames",
-        um = "qa",
+        um = "production",
         fm = 1,
         lm = {
             branch: "main",
