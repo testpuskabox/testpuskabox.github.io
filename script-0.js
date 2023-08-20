@@ -10037,7 +10037,7 @@ Url: ${Rr(t)}`), !0)
                         file: "script.js",
                         css: ["assets/style.css"],
                         base: "main/@connect",
-                        version: "5.160.53"
+                        version: "5.229.113"
                     },
                     // "the-wheel": {
                     //     file: "101d135e.js",
