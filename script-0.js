@@ -10035,7 +10035,7 @@ Url: ${Rr(t)}`), !0)
                 bundles: {
                     "@connect": {
                         file: "script.js",
-                        css: ["assets/style.css"],
+                        css: ["assets/style-0.css"],
                         base: "main/@connect",
                         version: "5.229.113"
                     },
